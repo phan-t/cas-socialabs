@@ -1,0 +1,70 @@
+<head>
+    {% include head.html %}
+    {% seo %}
+</head>
+<body class="layout-community" style="-webkit-overflow-scrolling: touch;">
+    <clr-main-container class="main-container">
+        <clr-header class="header-6 header">
+            {% include header.html %}
+        </clr-header>
+        <documentation class="content-container">
+            <main class="content-area">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                        <section>
+                            <h2>{{ page.title }}</h2>
+                        </section>
+                        <section class="community-top-section">
+                            <article>
+                                <div>
+                                    {{ content }}
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <table class="table">
+                            <thread>
+                                <tr>
+                                    <th>
+                                        This post is part of a series.
+                                    </th>
+                                </tr>
+                            </thread>
+                            <tbody>
+                                    {% if page.series %}
+                                    {% assign count = '0' %}
+                                    {% assign idx = '0' %}
+                                    {% for post in site.posts reversed %}
+                                        {% if post.series == page.series %}
+                                            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                                            <tr>
+                                            <td>
+                                                Module {{ count }} -
+                                                {% if page.url == post.url %}
+                                                    This Article
+                                                {% else %}
+                                                    <a href="{{post.url}}">{{post.title}}</a>
+                                                {% endif %}
+                                            </td>
+                                        </tr>
+                                        {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </documentation>
+    </clr-main-container>
+    {% include footer.html %}
+    {% assign base = '' %}
+    {% assign depth = page.url | split: '/' | size | minus: 1 %}
+    {% if    depth <= 1 %}{% assign base = '.' %}
+    {% elsif depth == 2 %}{% assign base = '..' %}
+    {% elsif depth == 3 %}{% assign base = '../..' %}
+    {% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
+    { % include footer.html % }
+</body>

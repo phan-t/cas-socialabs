@@ -1,0 +1,41 @@
+name: Cloud Automation Services SociaLabs
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: true
+ syntax_highlighter: rouge
+title: Cloud Automation Services SociaLabs
+
+social:
+  name: Grant Orchard
+  links:
+    - https://twitter.com/grantorchard
+    - https://www.linkedin.com/in/grantorchard
+
+logo: /images/gologo.svg
+author: Grant Orchard
+
+assets:
+  sources:
+    - /assets/images
+    - /assets/js
+    - /assets/css
+  compress:
+    css: true
+    js: true
+plugins:
+  - jekyll-assets
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+
+url: "https://cassociallabs.vmwapj.com"
+
+
+sizes: '(min-width: 70em) 1000px, (min-width: 50em) 750px, (min-width: 31.5em) 500px, 100vw'
+
+srcset:
+  - 500
+  - 750
+  - 1000
