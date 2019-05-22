@@ -1,7 +1,7 @@
 ---
 title: VMware Hands-on Labs Registration
 author: Tony Phan
-layout: page
+layout: cas
 tags:
   - Getting Started
 date: 2019-05-21

@@ -1,7 +1,7 @@
 ---
 title: Launching VMware Hands-on Lab
 author: Tony Phan
-layout: page
+layout: cas
 tags:
   - Getting Started
 date: 2019-05-21
