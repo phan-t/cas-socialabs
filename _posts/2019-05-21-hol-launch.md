@@ -26,4 +26,4 @@ description: 'Launching VMware Hands-on Lab HOL-1902-03-CMP Steps'
 
 1.  Browse to https://labs.hol.vmware.com, alternatively click [here](https://labs.hol.vmware.com)
 2.  Click the 'LOGIN/REGISTRATION' link
-3.  
+3.  Enter your registered username, password and click login
