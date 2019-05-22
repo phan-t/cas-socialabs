@@ -33,7 +33,7 @@ description: 'Launching VMware Hands-on Lab HOL-1902-03-CMP Steps'
 7.  When prompted to 'Test Your Browser Compatibility', click 'START LAB', the lab will take a minutes to launch. When successful you'll be presented with the Hands-on Labs console
 8.  We recommend you click the 'EXTEND' button eight times to maximise the 'Time Remaining'
 
-##### Student Check-In
+#### Student Check-In
 
 The following steps will grant you access to VMware's Cloud Automation Services.
 
