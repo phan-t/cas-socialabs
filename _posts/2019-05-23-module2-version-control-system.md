@@ -1,5 +1,5 @@
 ---
-title: Module 2: Integaration with Version Control System
+title: Module 2 - Integaration with Version Control System
 author: Brett Drayton
 layout: cas
 tags:
