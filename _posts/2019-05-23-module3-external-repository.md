@@ -1,4 +1,3 @@
-
 ---
 title: Integaration with External Repository
 author: Brett Drayton
