@@ -27,7 +27,7 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ##### Deploying the Blueprint
 1.  Click 'Deploy'
 2.  Enter a 'Deployment Name'
-3.  Click 'DEPLOY'
+3.  Click 'Deploy'
 
 ###### Example of constraints
 ````yaml
