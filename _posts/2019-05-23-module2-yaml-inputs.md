@@ -8,7 +8,7 @@ tags:
   - Inputs
 date: 2019-05-23
 series: cas-socialabs
-permalink: /module3/
+permalink: /module2/
 description: 'Working with Inputs and Publishing to Service Broker'
 ---
 

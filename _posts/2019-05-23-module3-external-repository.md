@@ -1,3 +1,4 @@
+
 ---
 title: Integaration with External Repository
 author: Brett Drayton
@@ -8,7 +9,7 @@ tags:
   - Github
 date: 2019-05-23
 series: cas-socialabs
-permalink: /module2/
+permalink: /module3/
 description: 'Integrating Cloud Assembly with Guthub'
 ---
 
