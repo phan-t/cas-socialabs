@@ -19,7 +19,6 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 3.  Provide a name for this blueprint, e.g. "Basic_IaaS"
 4.  Drag on a "Cloud Agnostic Machine" object onto the canvas, note how the YAML changes on the right side.
 5.  In the YAML, modify the `image` to represent `image: ubuntu` and `flavor` to `flavor: small`
-
 6.  We can use tags to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, VMware on AWS, AWS, Azure and GCP. For this lab we will utilise AWS.
 7.  Under `flavor: small` hit 'Enter' and add `constraints:` in the YAML.
 8.  Hit 'Enter' again to start a new line and notice how it auto populates - tag:`
@@ -32,7 +31,7 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ````
 
 #### Challenge
-- Edit your blueprint so that you can deploy to Azure.
+Edit your blueprint so that you can deploy to Azure.
 
 #### Blueprint Example YAML
 ```yaml
@@ -46,14 +45,12 @@ resources:
   machine:
     type: Cloud.Machine
     properties:
-      image: centos 7
+      image: ubuntu
       flavor: small
       constraints:
         - tag: 'platform:aws'
-        - tag: 'region:sydney'
 ```
 
 #### Documentation Links
 [Create a simple blueprint](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1EE72CCE-A871-4E63-88E5-30C12246BBBF.html)
-
-[How do constraints work?](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-C8C335F4-9623-401C-825E-6F5B2B3C6507.html).
+[How do constraints work?](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-C8C335F4-9623-401C-825E-6F5B2B3C6507.html)
