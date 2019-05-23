@@ -12,7 +12,8 @@ permalink: /module2/
 description: 'Working with Inputs and Publishing to Service Broker'
 ---
 
-### Lab Objective - Learn how to utilise "User Inputs" in the yaml syntax then publish blueprints to Service Broker
+### Lab Objective - Learn how to utilise "Inputs" in your yaml.  
+### We will thenthen publish blueprints to Service Broker
 
 #### Inputs
 Within Cloud Assembly Inputs can be used and stored as variables to be used at a later time within your yaml. For example, you can add a username to a linux server. You would then call this variable using cloud-init to parse the username to /etc/passwd on the linux host you deploy.
@@ -55,6 +56,13 @@ resources:
 ```
 ### Challenge Section
 - Add an input variable that will add a new user to a linux host when deployed. Hint - you will need to make use of cloud-init.
+
+#### Service Broker
+
+We now need to save a version of our blueprint. Then we will release it for use within Service Broker.
+
+1. Step1
+2. Step2
 
 #### Reference .yaml for some other input examples.
 Below are some examples of inputs that can be used within CAS.
