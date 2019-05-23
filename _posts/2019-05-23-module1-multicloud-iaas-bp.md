@@ -32,7 +32,7 @@ It shoudl look like the below:
 ````
 
 ### Challenge Section
-- Edit your blueprint so that you have a dropdown to select your desired cloud. The options should be AWS and Azure.
+- Edit your blueprint so that you can deploy to Azure.
 
 
 ### Documentation Links
