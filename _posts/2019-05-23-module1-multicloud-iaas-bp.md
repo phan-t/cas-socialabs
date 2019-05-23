@@ -11,9 +11,9 @@ permalink: /module1/
 description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ---
 
-### Lab Objective - Build a cloud agnostic blueprint
+#### Lab Objective - Build a Multi-Cloud blueprint
 
-#### The Blueprint
+##### Blueprinting
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Select Blueprints > "New" to create a new blueprint
 3.  Provide a name for this blueprint. "Basic_IaaS"
@@ -32,10 +32,10 @@ Refer below:
         - tag: 'region:sydney'
 ````
 
-### Challenge Section
+#### Challenge
 - Edit your blueprint so that you can deploy to Azure.
 
-### YAML for entire Agnostic Blueprint
+#### Blueprint Example YAML
 ```yaml
 version: 1.0
 name: Basic IaaS
@@ -54,7 +54,7 @@ resources:
         - tag: 'region:sydney'
 ```
 
-### Documentation Links
+#### Documentation Links
 [Create a simple blueprint](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1EE72CCE-A871-4E63-88E5-30C12246BBBF.html)
 
 [How do constraints work?](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-C8C335F4-9623-401C-825E-6F5B2B3C6507.html).
