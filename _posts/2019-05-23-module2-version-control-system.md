@@ -54,7 +54,13 @@ resources:
 7. If you need to add tags to support a tagging strategy, enter capability tags.
 8. Click Add.
 
+#### Confirm you can sync to your repo
+1. Navigagte back to "Blueprints" in Cloud Assembly
+2. Click "Sync Repos"
+3. Your basic iaas blueprint should appear in the list
 
+### Challenge Secion
+- Change your bluprint to version 1.1 and ensure that it will deploy to azure
 
 
 ### Documentation Links
