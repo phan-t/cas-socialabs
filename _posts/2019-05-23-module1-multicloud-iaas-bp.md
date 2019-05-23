@@ -1,6 +1,6 @@
 ---
 title: Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting
-author: Tony Phan
+author: Brett Drayton
 layout: cas
 tags:
   - Cloud Assembly
@@ -37,4 +37,5 @@ It shoudl look like the below:
 
 ### Documentation Links
 [Create a smiple blueprint](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1EE72CCE-A871-4E63-88E5-30C12246BBBF.html)
+
 [Constraints - How do they work?](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-C8C335F4-9623-401C-825E-6F5B2B3C6507.html).
