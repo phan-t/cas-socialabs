@@ -1,5 +1,5 @@
 ---
-title: Integaration with External Repository
+title: Working with Inputs and Service Broker
 author: Brett Drayton
 layout: cas
 tags:
