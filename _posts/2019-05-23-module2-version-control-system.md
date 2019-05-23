@@ -1,5 +1,5 @@
 ---
-title: Module 2 - Integaration with Version Control Repository
+title: Module 2: - Integaration with Version Control Repository
 author: Brett Drayton
 layout: cas
 tags:
@@ -38,15 +38,15 @@ resources:
 ```
 
 #### Setup Token in Github to allow CAS to pull from your repo
-1. From https://github.com select your profile icon in the top right corner > "settings"
+1. From <https://github.com> select your profile icon in the top right corner > "settings"
 2. Select "Developer settings" > Personal access tokens" and "Generate new token"
 3. Provide a name and select all check boxes. (You may delete the token at the end of the Social Labs event)
 4. Copy the token to a notepad for use in the following steps
 
 #### Steps to Integrate Cloud Assembly with Github
 
-1. If you do not already have an account, sign up to https://github.com
-2. Log into Cloud Assembly via https://console.cloud.vmware.com and select "Cloud Assembly" tile.
+1. If you do not already have an account, sign up to <https://github.com>
+2. Log into Cloud Assembly via <https://console.cloud.vmware.com> and select "Cloud Assembly" tile.
 3. Select Infrastructure > Connections > Integrations and click Add Integration.
 4. Select GitHub.
 5. Enter the required information on the GitHub configuration page. Note the repo and folder you setup under your github account.
@@ -58,8 +58,7 @@ resources:
 
 
 ### Documentation Links
-Integrating with Github
-https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html
+[Integrating with Github] (https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
 
 
 
