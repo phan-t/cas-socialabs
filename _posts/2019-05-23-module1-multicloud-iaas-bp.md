@@ -16,20 +16,19 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ##### Blueprinting
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Select Blueprints > "New" to create a new blueprint
-3.  Provide a name for this blueprint. "Basic_IaaS"
-4.  Now we have a choice, we can edit via yaml on the right hand side or by dragging objects from the left to the canvas.
-5.  Drag on a Cloud Agnostic Machine. Note how the .yml changes on the right side of the canvas.
-6.  In the yaml, select inside the quotes to select the image of "ubuntu 16.04" and "small" flavor mapping.
-7.  Now we need to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, AWS, Azure and GCP. For this lab we will utilise AWS.
-8.  Add a "constraints:" array in the yaml. Hit enter after you edit the flavor and start typing "constaints". Notice how it auto populates.
-9.  Hit enter again for a new line and notice how we get the "- tag:"
-10. Add "platform:aws" and an additional tag to specify the location "region:sydney"
+3.  Provide a name for this blueprint, e.g. "Basic_IaaS"
+4.  Drag on a "Cloud Agnostic Machine" object onto the canvas, note how the YAML changes on the right side.
+5.  In the YAML, modify the `image` to represent `image: ubuntu` and `flavor` to `flavor: small`
 
-Refer below:
+6.  We can use tags to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, VMware on AWS, AWS, Azure and GCP. For this lab we will utilise AWS.
+7.  Under `flavor: small` hit 'Enter' and add `constraints:` in the YAML.
+8.  Hit 'Enter' again to start a new line and notice how it auto populates - tag:`
+9. Add "platform:aws" to specify the cloud provided
+
+###### Example of constraints
 ````yaml
       constraints:
         - tag: 'platform:aws'
-        - tag: 'region:sydney'
 ````
 
 #### Challenge
