@@ -59,7 +59,7 @@ resources:
 2. Click "Sync Repos"
 3. Your basic iaas blueprint should appear in the list
 
-### Challenge Secion
+### Challenge Section
 - Change your bluprint to version 1.1 and ensure that it will deploy to azure
 
 
