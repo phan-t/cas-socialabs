@@ -24,7 +24,7 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 8. Add a "constraints:" array in the yaml. Hit enter after you edit the flavor and start typing "constaints". Notice how it auto populates.
 9. Hit enter again for a new line and notice how we get the "- tag:"
 10. Add "platform:aws" and an additional tag to specify the location "region:sydney"
-It shoudl look like the below:
+Refer below:
 ````yaml
       constraints:
         - tag: 'platform:aws'
@@ -34,6 +34,24 @@ It shoudl look like the below:
 ### Challenge Section
 - Edit your blueprint so that you can deploy to Azure.
 
+### Yaml for entire Agnostic Blueprint
+```yaml
+version: 1.0
+name: Basic IaaS
+formatVersion: 1
+inputs:
+  hostname:
+    type: string
+resources:
+  machine:
+    type: Cloud.Machine
+    properties:
+      image: centos 7
+      flavor: small
+      constraints:
+        - tag: 'platform:aws'
+        - tag: 'region:sydney'
+```
 
 ### Documentation Links
 [Create a smiple blueprint](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1EE72CCE-A871-4E63-88E5-30C12246BBBF.html)
