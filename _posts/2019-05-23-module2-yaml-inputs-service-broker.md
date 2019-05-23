@@ -19,7 +19,7 @@ description: 'Working with Inputs and Service Broker'
 Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
 1.  Clone the 'Basic_IaaS' blueprint to a new blueprint named "Basic_IaaS with Inputs"
-2.  Review the below .yaml to understand how we can utilsie inputs in different ways. In this exable we will provide the user provisioning this blueprint with the ability to select the Cloud Platform as well as the Image Version.
+2.  Review the below .yaml to understand how we can utilsie inputs in different ways. In this example we will provide the user provisioning this blueprint with the ability to select the Cloud Platform as well as the Image Version.
 
 ```yaml
 version: 1.0
