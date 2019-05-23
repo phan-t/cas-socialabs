@@ -31,7 +31,7 @@
                                     </th>
                                 </tr>
                             </thread>
-                            <tbody>
+                            <tbody align="left">
                                     {% if page.series %}
                                     {% assign count = '0' %}
                                     {% assign idx = '0' %}
@@ -39,7 +39,7 @@
                                         {% if post.series == page.series %}
                                             {% capture count %}{{ count | plus: '1' }}{% endcapture %}
                                             <tr>
-                                            <td>
+                                            <td align="left">
                                                 Module {{ count }} -
                                                 {% if page.url == post.url %}
                                                     This Article
