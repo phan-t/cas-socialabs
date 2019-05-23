@@ -24,6 +24,11 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 8.  Hit 'Enter' again to start a new line and notice how it auto populates - tag:`
 9.  Add "platform:aws" to specify the cloud provided
 
+##### Deploying the Blueprint
+1.  Click 'Deploy'
+2.  Enter a 'Deployment Name'
+3.  Click 'DEPLOY'
+
 ###### Example of constraints
 ````yaml
       constraints:

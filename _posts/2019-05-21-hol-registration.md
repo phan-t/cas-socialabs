@@ -9,7 +9,6 @@ permalink: /hol-registration/
 description: 'VMware Hands-on Labs Registration Steps'
 ---
 #### Registration Steps
-
 1.  Browse to https://labs.hol.vmware.com, alternatively click [here](https://labs.hol.vmware.com)
 2.  Click the 'LOGIN/REGISTRATION' link
 3.  Click the 'Registration' link
