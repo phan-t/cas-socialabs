@@ -13,14 +13,13 @@ permalink: /module2/
 description: 'Working with Inputs and Service Broker'
 ---
 
-### Lab Objective - Learn how to utilise "Inputs" in your yaml.  
-### We will thenthen publish blueprints to Service Broker
+### Lab Objective: 1. Learn how to utilise inputs in the blueprint YAML an publishing in Service Broker
 
 #### Inputs
-Within Cloud Assembly Inputs can be used and stored as variables to be used at a later time within your yaml. For example, you can add a username to a linux server. You would then call this variable using cloud-init to parse the username to /etc/passwd on the linux host you deploy.
+Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
-1. Clone your basic iaas blueprint to a new blueprint named "Basic IaaS with Inputs"
-2. Review the below .yaml to understand how we can utilsie inputs in different ways. In this exable we will provide the user provisioning this blueprint with the ability to select the Cloud Platform as well as the Image Version.
+1.  Clone the 'Basic_IaaS' blueprint to a new blueprint named "Basic_IaaS with Inputs"
+2.  Review the below .yaml to understand how we can utilsie inputs in different ways. In this exable we will provide the user provisioning this blueprint with the ability to select the Cloud Platform as well as the Image Version.
 
 ```yaml
 version: 1.0
