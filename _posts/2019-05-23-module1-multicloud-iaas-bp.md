@@ -11,7 +11,7 @@ permalink: /module1/
 description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ---
 
-#### Lab Objective - Build a Multi-Cloud blueprint
+#### Lab Objective: Build a Multi-Cloud Blueprint
 
 ##### Blueprinting
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
