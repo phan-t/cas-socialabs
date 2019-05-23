@@ -5,7 +5,7 @@ kramdown:
  auto_ids: true
  hard_wrap: true
  syntax_highlighter: rouge
-   syntax_highlighter_opts:
+ syntax_highlighter_opts:
     css_class: 'highlight'
     span:
       line_numbers: false
