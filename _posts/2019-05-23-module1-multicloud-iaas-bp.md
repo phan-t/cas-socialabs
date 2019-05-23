@@ -31,8 +31,8 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 
 ###### Example of constraints
 ````yaml
-      constraints:
-        - tag: 'platform:aws'
+constraints:
+  - tag: 'platform:aws'
 ````
 
 #### Challenge

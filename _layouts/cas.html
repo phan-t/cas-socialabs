@@ -1,19 +1,8 @@
 <head>
     {% include head.html %}
     {% seo %}
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/syntax.css" />
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs2015.min.css">
-    <style>.hljs { background: none; }</style>
 </head>
 <body class="layout-community" style="-webkit-overflow-scrolling: touch;">
-    <!-- highlight.js -->
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/highlight.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
     <clr-main-container class="main-container">
         <clr-header class="header-6 header">
             {% include header.html %}
@@ -53,7 +42,7 @@
                                             <td>
                                                 Module {{ count }} -
                                                 {% if page.url == post.url %}
-                                                    This Article
+                                                    This Module
                                                 {% else %}
                                                     <a href="{{post.url}}">{{post.title}}</a>
                                                 {% endif %}
