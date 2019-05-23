@@ -1,6 +1,6 @@
 ---
-title: Module 1: Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting
-author: Tony Ohan
+title: Module 1 - Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting
+author: Tony Phan
 layout: cas
 tags:
   - Cloud Assembly
