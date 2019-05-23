@@ -1,15 +1,15 @@
 ---
-title: Bootstapping with Cloud-Init
+title: Bootstrapping Guest Configuration with cloud-init
 author: Brett Drayton
 layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
-  - Cloud Init
+  - Cloud-Init
 date: 2019-05-23
 series: cas-socialabs
 permalink: /module4/
-description: 'Making use of Cloud Init to perform at boot customisation of the Operating System'
+description: 'Bootstrapping Guest Configuration with cloud-init'
 ---
 
 ### Lab Objective - Configure Cloud init to perform a number of actions to configure your linux host.
@@ -31,7 +31,3 @@ version: 1.0
 
 ### Documentation Links
 [Integrating with Github](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
-
-
-
-

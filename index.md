@@ -20,7 +20,8 @@ series: cas-socialabs
 
 Throughout the course, you will be asked to complete lab objectives that align with specific demonstrations and use-cases.
 
-Before you get started, make sure you have an existing account for the VMware Hands-on Labs, if not follow the [registration steps](https://cas-socialabs.vmwapj.com/hol-registration/). Once registered or if you already have an existing account follow the [launch steps](https://cas-socialabs.vmwapj.com/hol-launch/) required for this course. As part of the labs you will be asked to complete challenges. These are optional however it is suggested you attempt to complete these. More information availabe on the [Challenges](https://cas-socialabs.vmwapj.com/lab-challenges/) page.
+Before you get started, make sure you have an existing account for the VMware Hands-on Labs, if not follow the [registration steps](https://cas-socialabs.vmwapj.com/hol-registration/). Once registered or if you already have an existing account follow the [launch steps](https://cas-socialabs.vmwapj.com/hol-launch/) required for this course.
+As part of the labs you will be asked to complete challenges. These are optional however it is suggested you attempt to complete these. More information available on the [challenges](https://cas-socialabs.vmwapj.com/challenge/) page.
 
 <table class="table">
     <thead>
@@ -38,7 +39,7 @@ Before you get started, make sure you have an existing account for the VMware Ha
         </tr>
         <tr>
             <td>2</td>
-            <td>Working with Inputs</td>
+            <td>Working with Inputs and Service Broker</td>
             <td>15 minutes</td>
         </tr>
         <tr>
@@ -48,7 +49,7 @@ Before you get started, make sure you have an existing account for the VMware Ha
         </tr>
         <tr>
             <td>4</td>
-            <td>Bootstrapping Guest Configuration with cloud-init</td>
+            <td>Bootstrapping Guest Configuration with Cloud-Init</td>
             <td>45 minutes</td>
         </tr>
         <tr>

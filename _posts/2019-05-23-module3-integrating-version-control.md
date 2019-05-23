@@ -1,15 +1,15 @@
 ---
-title: Integaration with External Repository
+title: Integrating with Version Control
 author: Brett Drayton
 layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
-  - Github
+  - Version Control
 date: 2019-05-23
 series: cas-socialabs
 permalink: /module3/
-description: 'Integrating Cloud Assembly with Guthub'
+description: 'Integrating with Version Control'
 ---
 
 ### Lab Objective - Integrate Cloud Assembly with Github
@@ -65,7 +65,3 @@ resources:
 
 ### Documentation Links
 [Integrating with Github](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
-
-
-
-

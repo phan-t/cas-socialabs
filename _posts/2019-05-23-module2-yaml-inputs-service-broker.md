@@ -5,11 +5,12 @@ layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
+  - YAML
   - Inputs
 date: 2019-05-23
 series: cas-socialabs
 permalink: /module2/
-description: 'Working with Inputs and Publishing to Service Broker'
+description: 'Working with Inputs and Service Broker'
 ---
 
 ### Lab Objective - Learn how to utilise "Inputs" in your yaml.  
@@ -154,7 +155,7 @@ resources:
         - tag: '${input.platform}'
       cloudConfig: |
         #cloud-config
-        users: 
+        users:
           - name: ${input.username}
             shell: ${input.shell}
             groups: sudo
@@ -178,7 +179,3 @@ resources:
 
 ### Documentation Links
 [Inputs and Expressions for CAS](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-74B39C1C-A1C5-451B-B936-8EC607E3C6A8.html)
-
-
-
-
