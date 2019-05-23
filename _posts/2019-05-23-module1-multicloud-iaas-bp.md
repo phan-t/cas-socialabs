@@ -22,7 +22,7 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 6.  We can use tags to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, VMware on AWS, AWS, Azure and GCP. For this lab we will utilise AWS.
 7.  Under `flavor: small` hit 'Enter' and add `constraints:` in the YAML.
 8.  Hit 'Enter' again to start a new line and notice how it auto populates - tag:`
-9. Add "platform:aws" to specify the cloud provided
+9.  Add "platform:aws" to specify the cloud provided
 
 ###### Example of constraints
 ````yaml
@@ -31,7 +31,7 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ````
 
 #### Challenge
-Edit your blueprint so that you can deploy to Azure.
+-   Edit your blueprint so that you can deploy to Azure.
 
 #### Blueprint Example YAML
 ```yaml
