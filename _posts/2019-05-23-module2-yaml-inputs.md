@@ -64,7 +64,7 @@ We now need to save a version of our blueprint. Then we will release it for use 
 1. From within your blueprint canvas select "Version" and save a version of your working blueprint.
 2. Now select "Version History" and select "Release" to release your blueprint for use within Service Broker.
 3. We now need to move into the Service Broker interface. In the top right of your screen select the 9 tile icon and select Service Broker. See below:
-{% lightbox /assets/images/02-Module2/Service-broker.png --title="Service Broker" --data="Select Service Broker" --img-style="max-width:80%" %}
+{% lightbox /assets/images/02-Module2/Service-broker.png --title="Service Broker" --data="Select Service Broker" --img-style="max-width:40%" %}
 4. Follow instructor in adding blueprint to catalog for consumption.
 
 #### Reference .yaml for some other input examples.
