@@ -75,17 +75,24 @@ resources:
 #### Service Broker
 To publish a blueprint into Service Broker it must first be versioned and released in Cloud Assembly
 
+##### Cloud Assembly Blueprint Versioning
 1.  Click into the design canvas of the same blueprint 'Basic IaaS with Inputs'
 2.  Click 'VERSION'
 3.  Type in a version number, e.g. '1.0' and click 'Create'
 4.  Click on 'Version History'
-5.  Click 'Release' on the version you just created and click 'Release' again
+5.  Click 'Release' on the version just created '1.0' and click 'Release' again
 
-
-2. Now select "Version History" and select "Release" to release your blueprint for use within Service Broker.
-3. We now need to move into the Service Broker interface. In the top right of your screen select the 9 tile icon and select Service Broker. See below:
-{% lightbox /assets/images/02-Module2/Service-broker.png --title="Service Broker" --data="Select Service Broker" --img-style="max-width:40%" %}
-4. Follow instructor in adding blueprint to catalog for consumption.
+##### Publishing Cloud Assembly Blueprints in Service Broker
+1.  Navigate to the Service Broker service
+2.  Click 'Content & Policies'
+3.  Click 'NEW'
+4. Under 'Types' select 'Cloud Assembly Blueprint'
+5. Enter the name 'SociaLabs' and select the project 'trading'
+6. Click 'Validate' and 'CREATE & IMPORT'
+7. Click 'Content Sharing' on the left menu
+8. Search for the project 'trading' and click 'ADD ITEMS'
+9. Tick on the Content Source just created 'SociaLab' and click 'SAVE'
+10. Click on 'Catalog' and see the Cloud Assembly blueprint being published
 
 #### Documentation Links
 [Inputs and Expressions for CAS](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-74B39C1C-A1C5-451B-B936-8EC607E3C6A8.html)
