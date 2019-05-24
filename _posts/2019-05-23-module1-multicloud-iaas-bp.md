@@ -26,10 +26,10 @@ We can use tags to ensure that the blueprint is deployed to the appropriate clou
 10.  Add `platform:aws` to specify the cloud provided
 
 ###### Example of constraints
-````yaml
+```yaml
 constraints:
   - tag: 'platform:aws'
-````
+```
 
 ##### Deploying the Blueprint
 1.  Click 'Deploy'

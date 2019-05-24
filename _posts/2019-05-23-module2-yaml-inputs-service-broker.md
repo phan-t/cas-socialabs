@@ -18,19 +18,30 @@ description: 'Working with Inputs and Service Broker'
 #### Inputs
 Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
-##### Creating Inputs
+##### Creating and Using Inputs as Variables
 1.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs" and remember select the project
 2.  To being adding inputs, locate `inputs: {}` and remove the curly brackets `{}`
 3.  Hit 'Enter' after removing the curly brackets, e.g. at `inputs:` to return a new line. The YAML will intent automatically
-4.  Enter the input name `hostname:` and hit 'Enter' again
+4.  Enter the input name `tshirtsize:` and hit 'Enter' again
 5.  Enter the input type `type: string`
+6.  Replace the value `small` in the YAML with `${input.tshirtsize}`
 
-##### Using Inputs as Variables
+###### Example of inputs
+```yaml
+inputs:
+  tshirtsize:
+    type: string
+```
 
-
+##### Deploying the Blueprint
+1.  Click 'Deploy'
+2.  Under 'Deployment Type' enter a 'Deployment Name'
+3.  Under 'Deployment Inputs' enter 'small'
+3.  Click 'Deploy'
+4.  The deployment should be successful after a few minutes, you can click on it to view more details. After a successful deployment you can click on 'Actions' and 'Delete' to destroy it
 
 #### Challenge Section
-- Add an input variable that will add a new user to a linux host when deployed. Hint - you will need to make use of cloud-init.
+- Create another input and enumerate values, i.e. creating a drop-down list
 
 #### Blueprint Example YAML
 ```yaml
@@ -38,8 +49,6 @@ version: 1.0
 name: Basic IaaS With Inputs
 formatVersion: 1
 inputs:
-  hostname:
-    type: string
   image:
     type: string
     title: Operating System
@@ -64,8 +73,6 @@ resources:
 ```
 
 #### Service Broker
-
-We now need to save a version of our blueprint. Then we will release it for use within Service Broker.
 
 1. From within your blueprint canvas select "Version" and save a version of your working blueprint.
 2. Now select "Version History" and select "Release" to release your blueprint for use within Service Broker.
