@@ -19,8 +19,8 @@ Cloud-init is a package that contains utilities for early initialization of clou
 
 1. Clone the 'Basic_IaaS with Inputs' blueprint to a new blueprint named "Basic_IaaS_Inputs_Cloud-init"
 2. Review the below .yaml to understand how we can utilsie cloud-init in different ways. Initially we will install some packages and add a user to the host. Feel free to refer to the cloud-init documentation below to understand all of the options available.
-3. 
-* Create user account to allow ssh
+* Create user account to allow ssh. See `users:` section under `cloudConfig`.
+* Inatalled apache2 see `packages:` section under `cloudConfig`.
 
 
 ```yaml
