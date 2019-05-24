@@ -18,8 +18,15 @@ description: 'Working with Inputs and Service Broker'
 #### Inputs
 Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
+##### Creating Inputs
 1.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs" and remember select the project
 2.  To being adding inputs, locate `inputs: {}` and remove the curly brackets `{}`
+3.  Hit 'Enter' after removing the curly brackets, e.g. at `inputs:` to return a new line. The YAML will intent automatically
+4.  Enter the input name `hostname:` and hit 'Enter' again
+5.  Enter the input type `type: string`
+
+##### Using Inputs as Variables
+
 
 
 #### Challenge Section

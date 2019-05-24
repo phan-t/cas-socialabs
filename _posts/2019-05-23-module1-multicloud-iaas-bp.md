@@ -35,6 +35,7 @@ constraints:
 1.  Click 'Deploy'
 2.  Enter a 'Deployment Name'
 3.  Click 'Deploy'
+4.  The deployment should be successful after a few minutes, you can click on it to view more details. After a successful deployment you can click on 'Actions' and 'Delete' to destroy it
 
 #### Challenge
 -   Edit your blueprint so that you can deploy to Azure.
