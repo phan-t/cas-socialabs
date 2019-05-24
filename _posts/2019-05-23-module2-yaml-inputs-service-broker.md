@@ -13,13 +13,13 @@ permalink: /module2/
 description: 'Working with Inputs and Service Broker'
 ---
 
-### Lab Objective: 1. Learn how to utilise inputs in the blueprint YAML an publishing in Service Broker
+### Lab Objective: Learn how to utilise inputs in the blueprint YAML an publishing in Service Broker
 
 #### Inputs
 Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
-1.  Clone the 'Basic_IaaS' blueprint to a new blueprint named "Basic_IaaS with Inputs"
-2.  Review the below .yaml to understand how we can utilsie inputs in different ways. In this example we will provide the user provisioning this blueprint with the ability to select the Cloud Platform as well as the Image Version.
+1.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs"
+2.  Review the below .yaml to understand how we can utilsie inputs in different ways. In this exable we will provide the user provisioning this blueprint with the ability to select the Cloud Platform as well as the Image Version.
 
 ```yaml
 version: 1.0
@@ -32,8 +32,7 @@ inputs:
     type: string
     title: Operating System
     enum:
-      - ubuntu 16.04
-      - ubuntu 18.04
+      - ubuntu
   platform:
     type: string
     title: Deploy to
@@ -42,8 +41,6 @@ inputs:
         const: 'platform:aws'
       - title: Azure
         const: 'platform:azure'
-      - title: vSphere
-        const: 'platform:vsphere'
 resources:
   machine:
     type: Cloud.Machine
@@ -52,7 +49,6 @@ resources:
       flavor: small
       constraints:
         - tag: '${input.platform}'
-        - tag: 'region:sydney'
 ```
 ### Challenge Section
 - Add an input variable that will add a new user to a linux host when deployed. Hint - you will need to make use of cloud-init.
