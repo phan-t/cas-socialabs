@@ -73,8 +73,15 @@ resources:
 ```
 
 #### Service Broker
+To publish a blueprint into Service Broker it must first be versioned and released in Cloud Assembly
 
-1. From within your blueprint canvas select "Version" and save a version of your working blueprint.
+1.  Click into the design canvas of the same blueprint 'Basic IaaS with Inputs'
+2.  Click 'VERSION'
+3.  Type in a version number, e.g. '1.0' and click 'Create'
+4.  Click on 'Version History'
+5.  Click 'Release' on the version you just created and click 'Release' again
+
+
 2. Now select "Version History" and select "Release" to release your blueprint for use within Service Broker.
 3. We now need to move into the Service Broker interface. In the top right of your screen select the 9 tile icon and select Service Broker. See below:
 {% lightbox /assets/images/02-Module2/Service-broker.png --title="Service Broker" --data="Select Service Broker" --img-style="max-width:40%" %}
