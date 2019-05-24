@@ -12,6 +12,7 @@ permalink: /module4/
 description: 'Bootstrapping Guest Configuration with cloud-init'
 ---
 
+<<<<<<< HEAD
 ### Lab Objective - Configure Cloud init to perform a number of actions to configure your linux host at boot.
 Cloud-init is a package that contains utilities for early initialization of cloud instances. It is needed in Arch Linux images that are built with the intention of being launched in cloud like OpenStack, AWS, Azure and so on.
 
@@ -20,6 +21,16 @@ Cloud-init is a package that contains utilities for early initialization of clou
 1. Clone the 'Basic_IaaS with Inputs' blueprint to a new blueprint named "Basic_IaaS_Inputs_Cloud-init"
 2. Review the below .yaml to understand how we can utilsie cloud-init in different ways. Initially we will install some packages and add a user to the host. Feel free to refer to the cloud-init documentation below to understand all of the options available.
 3. 
+=======
+* Create user account to allow ssh
+
+### Lab Objective - Configure Cloud init to perform a number of actions to configure your linux host as boot.
+
+#### Follow the below instructions to enable and run some basic tasks in cloud init.
+
+1.
+2. B
+>>>>>>> 75c5b922b9dde688e56ab708e24a9e18bdf9f315
 
 ```yaml
 version: 1.0

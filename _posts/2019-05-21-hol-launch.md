@@ -36,7 +36,7 @@ description: 'Launching VMware Hands-on Lab HOL-1902-03-CMP Steps'
 The following steps will grant you access to VMware's Cloud Automation Services.
 1.  Browse to https://checkin.hol.vmware.com, alternatively click [here](https://checkin.hol.vmware.com)
 2.  Enter your registered email address and click 'Search'
-3.  The 'HOL-1902-03-CMP' lab enrolment should be in the results with your temporary VMware Cloud Services credentials (myvmwarexx@vmware.hol.com)
+3.  The 'HOL-1902-03-CMP' lab enrolment should be in the results with your temporary VMware Cloud Services credentials (myvmwarexx@vmware.hol.com), click on the credentials to activate the account
 4.  You should be on VMware Cloud Services login page, leave the temporary email address and click 'NEXT'
 5.  Enter the password 'VMware1!' and click 'SIGN IN'
 
