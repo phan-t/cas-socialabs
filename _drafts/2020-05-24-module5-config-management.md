@@ -12,7 +12,8 @@ permalink: /module4/
 description: 'Bootstrapping Guest Configuration with cloud-init'
 ---
 
-* Create user account to allow ssh
+* integrate with ansible open source from public fqdn and deploy playbook for apache
+* challenge repeat with puppet
 
 ### Lab Objective - Configure Cloud init to perform a number of actions to configure your linux host as boot.
 

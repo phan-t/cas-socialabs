@@ -12,7 +12,8 @@ permalink: /module4/
 description: 'Bootstrapping Guest Configuration with cloud-init'
 ---
 
-* Create user account to allow ssh
+* pull action from git
+* challenge, add addition inputs in payload
 
 ### Lab Objective - Configure Cloud init to perform a number of actions to configure your linux host as boot.
 

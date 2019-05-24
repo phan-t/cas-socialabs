@@ -12,6 +12,9 @@ permalink: /module3/
 description: 'Integrating with Version Control'
 ---
 
+* Integrate and Sync with Git
+
+
 ### Lab Objective - Integrate Cloud Assembly with Github
 
 #### Upload your first blueprint to Github
