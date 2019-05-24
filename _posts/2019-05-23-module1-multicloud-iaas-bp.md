@@ -17,17 +17,13 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Select Blueprints > "New" to create a new blueprint
 3.  Provide a name for this blueprint, e.g. "Basic_IaaS"
-4.  Drag on a "Cloud Agnostic Machine" object onto the canvas, note how the YAML changes on the right side.
-5.  In the YAML, modify the `image` to represent `image: ubuntu` and `flavor` to `flavor: small`
-6.  We can use tags to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, VMware on AWS, AWS, Azure and GCP. For this lab we will utilise AWS.
-7.  Under `flavor: small` hit 'Enter' and add `constraints:` in the YAML.
-8.  Hit 'Enter' again to start a new line and notice how it auto populates - tag:`
-9.  Add "platform:aws" to specify the cloud provided
-
-##### Deploying the Blueprint
-1.  Click 'Deploy'
-2.  Enter a 'Deployment Name'
-3.  Click 'Deploy'
+4.  Select the Project 'trading' and click 'Create'
+5.  Drag on a "Cloud Agnostic Machine" object onto the canvas, note how the YAML changes on the right side.
+6.  In the YAML, modify the `image` to represent `image: ubuntu` and `flavor` to `flavor: small`
+8.  Under `flavor: small` hit 'Enter' and add `constraints:` in the YAML.
+We can use tags to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, VMware on AWS, AWS, Azure and GCP. For this lab we will utilise AWS.
+9.  Hit 'Enter' again to start a new line and notice how it auto populates `- tag:`
+10.  Add `platform:aws` to specify the cloud provided
 
 ###### Example of constraints
 ````yaml
@@ -35,8 +31,15 @@ constraints:
   - tag: 'platform:aws'
 ````
 
+##### Deploying the Blueprint
+1.  Click 'Deploy'
+2.  Enter a 'Deployment Name'
+3.  Click 'Deploy'
+
 #### Challenge
 -   Edit your blueprint so that you can deploy to Azure.
+
+### Congratulations you have completed Module 1! Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker
 
 #### Blueprint Example YAML
 ```yaml
