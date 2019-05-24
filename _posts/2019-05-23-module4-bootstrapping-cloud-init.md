@@ -81,8 +81,6 @@ bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-a
 ```
 
 ### Documentation Links
-[Integrating with Github](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
-
 [cloud-init](https://cloudinit.readthedocs.io/en/latest/)
 
 [Wavefront](https://docs.wavefront.com/linux.html)
