@@ -8,7 +8,7 @@ tags:
   - Cloud-Init
 date: 2019-05-23
 series: cas-socialabs
-permalink: /module4/
+permalink: /module5/
 description: 'Bootstrapping Guest Configuration with cloud-init'
 ---
 
@@ -36,3 +36,4 @@ version: 1.0
 [Integrating with Github](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
 
 [cloud-init](https://cloudinit.readthedocs.io/en/latest/)
+

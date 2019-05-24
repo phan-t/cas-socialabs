@@ -8,7 +8,7 @@ tags:
   - Cloud-Init
 date: 2019-05-23
 series: cas-socialabs
-permalink: /module4/
+permalink: /module6/
 description: 'Bootstrapping Guest Configuration with cloud-init'
 ---
 
