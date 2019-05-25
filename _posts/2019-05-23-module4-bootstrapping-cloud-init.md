@@ -1,5 +1,5 @@
 ---
-title: Bootstrapping Guest Configuration with cloud-init
+title: Bootstrapping Guest Configuration with Cloud-Init
 author: Brett Drayton
 layout: cas
 tags:
