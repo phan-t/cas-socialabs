@@ -38,8 +38,8 @@ inputs:
 1.  Click 'Deploy'
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
-3.  Click 'Deploy'
-4.  The deployment should be successful after a few minutes, you can click on it to view more details. After a successful deployment you can click on 'Actions' and 'Delete' to destroy it
+4.  Click 'Deploy'
+5.  The deployment should be successful after a few minutes, you can click on it to view more details. After a successful deployment you can click on 'Actions' and 'Delete' to destroy it
 
 #### Challenge Section
 - Create another input and enumerate values, i.e. creating a drop-down list

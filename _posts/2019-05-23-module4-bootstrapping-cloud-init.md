@@ -20,17 +20,10 @@ Cloud-init is a package that contains utilities for early initialization of clou
 2.  To being adding Cloud-init configuration, locate `- tag: '${input.platform}'` and hit 'Enter' to return a new line. The YAML will intent automatically however you will need to backspace about three times to make sure the intent is vertically the same as `constraints`
 3.  Type `cloudConfig: |` and hit 'Enter' to return a new line. Note: 'cloudConfig' represents 'Cloud-init' in Cloud Assembly
 4.  Hit 'tab' to intent once and type `#cloud-config` to add a comment the following code represents 'Cloud-init'
-5.  It is recommended we add some Cloud-init attributes after `#cloud-config`, see example:
-```yaml
-cloudConfig: |
-  #cloud-config
-  repo_update: true
-  repo_upgrade: all
-  package_update: true
-  package_upgrade: all
-```
+5.  You are now ready to add the Cloud-init payload
 
-6.  To install packages use the attribute `packages` e.g. see example for Apache:
+##### Using Clout-init to deploy packages
+1.  To install packages use the attribute `packages` e.g. see example for Apache:
 ```yaml
 cloudConfig: |
   #cloud-config
@@ -42,6 +35,31 @@ cloudConfig: |
   packages:
    - httpd
 ```
+
+##### Using Clout-init to add users with SSH key
+1.  To install packages use the attribute `users` e.g. see example for 'socialab':
+```yaml
+#cloud-config
+repo_update: true
+repo_upgrade: all
+package_update: true
+package_upgrade: all
+
+users:
+  - name: socialab
+    ssh-authorized-keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcQSb7RhxBdmyUMRKAK+dGWnZZ0W5VYsmys6OQ39IiLOv1j9kJbVb+Lw5iuw9hdvdrLZOF5fpjKmfuBbeJLHJyaatL1xJ5qAr2sqwR3iVeiJG39iOWTtrxyrdRFgv8KP4taG5GIAfDPqnLZdM3q3Y9yw+cXARnS7vvCe38IVQVpS0mf+1TzRbgY2BwNvU1RbLLDDAstWMZFAfjctiippefF8Ndr16MPQ3Vy9Gm1sCIko/zXqPtJc/lHD8Cx2YjT6G/TAMQKTbuAfmOE/vDFhron5x0GAbasvTA6TSFi0qcbYQDodCW4ga2FshcYhxvhnzhA7xVvjbZYWsWcw9ngieT tphan@TPs-MacBook-Pro-13.local
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    groups: sudo
+    shell: /bin/bash
+```
+
+##### Deploying the Blueprint
+1.  Click 'Deploy'
+2.  Under 'Deployment Type' enter a 'Deployment Name'
+3.  Under 'Deployment Inputs' enter 'small'
+4.  Click 'Deploy'
+5.  The deployment should be successful after a few minutes, try using SSH with the private key to login
 
 #### Challenge
 - By default Apache doesn't start automatically, see if you can add attributes to 'Cloud-init' to start Apache
