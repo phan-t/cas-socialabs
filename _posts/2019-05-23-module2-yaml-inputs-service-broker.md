@@ -19,12 +19,13 @@ description: 'Working with Inputs and Service Broker'
 Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
 ##### Creating and Using Inputs as Variables
-1.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs" and remember select the project
-2.  To being adding inputs, locate `inputs: {}` and remove the curly brackets `{}`
-3.  Hit 'Enter' after removing the curly brackets, e.g. at `inputs:` to return a new line. The YAML will intent automatically
-4.  Enter the input name `tshirtsize:` and hit 'Enter' again
-5.  Enter the input type `type: string`
-6.  Replace the value `small` in the YAML with `${input.tshirtsize}`
+1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
+2.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs" and remember select the project
+3.  To being adding inputs, locate `inputs: {}` and remove the curly brackets `{}`
+4.  Hit 'Enter' after removing the curly brackets, e.g. at `inputs:` to return a new line. The YAML will intent automatically
+5.  Enter the input name `tshirtsize:` and hit 'Enter' again
+6.  Enter the input type `type: string`
+7.  Replace the value `small` in the YAML with `${input.tshirtsize}`
 
 ###### Example of inputs
 ```yaml
@@ -86,12 +87,12 @@ To publish a blueprint into Service Broker it must first be versioned and releas
 1.  Navigate to the Service Broker service
 2.  Click 'Content & Policies'
 3.  Click 'NEW'
-4. Under 'Types' select 'Cloud Assembly Blueprint'
-5. Enter the name 'SociaLabs' and select the project 'trading'
-6. Click 'Validate' and 'CREATE & IMPORT'
-7. Click 'Content Sharing' on the left menu
-8. Search for the project 'trading' and click 'ADD ITEMS'
-9. Tick on the Content Source just created 'SociaLab' and click 'SAVE'
+4.  Under 'Types' select 'Cloud Assembly Blueprint'
+5.  Enter the name 'SociaLabs' and select the project 'trading'
+6.  Click 'Validate' and 'CREATE & IMPORT'
+7.  Click 'Content Sharing' on the left menu
+8.  Search for the project 'trading' and click 'ADD ITEMS'
+9.  Tick on the Content Source just created 'SociaLab' and click 'SAVE'
 10. Click on 'Catalog' and see the Cloud Assembly blueprint being published
 
 #### Documentation Links
