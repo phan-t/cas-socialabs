@@ -16,8 +16,7 @@ description: 'Bootstrapping Guest Configuration with Cloud-init'
 Cloud-init is a package that contains utilities for early initialization of cloud instances. It is needed in Arch Linux images that are built with the intention of being launched in cloud like OpenStack, AWS, Azure and so on.
 
 #### Adding Cloud-init configuration to the blueprint YAML
-
-1.  Clone the 'Basic IaaS with Inputs' blueprint to a new blueprint named "Basic IaaS with Cloud-init" and remember select the project
+1.  Clone the 'Basic IaaS with Inputs' blueprint to a new blueprint named "Apache using Cloud-init" and remember select the project
 2.  To being adding Cloud-init configuration, locate `- tag: '${input.platform}'` and hit 'Enter' to return a new line. The YAML will intent automatically however you will need to backspace about three times to make sure the intent is vertically the same as `constraints`
 3.  Type `cloudConfig: |` and hit 'Enter' to return a new line. Note: 'cloudConfig' represents 'Cloud-init' in Cloud Assembly
 4.  Hit 'tab' to intent once and type `#cloud-config` to add a comment the following code represents 'Cloud-init'

@@ -1,39 +1,27 @@
 ---
-title: Bootstrapping Guest Configuration with cloud-init
+title: Integrating Configuration Management
 author: Brett Drayton
 layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
-  - Cloud-Init
+  - Configuration Management
+  - Ansible
 date: 2019-05-23
 series: cas-socialabs
 permalink: /module5/
-description: 'Bootstrapping Guest Configuration with cloud-init'
+description: 'Integrating Configuration Management'
 ---
 
-* integrate with ansible open source from public fqdn and deploy playbook for apache
-* challenge repeat with puppet
-
-### Lab Objective - Configure Cloud init to perform a number of actions to configure your linux host as boot.
-
-#### Follow the below instructions to enable and run some basic tasks in cloud init.
-
-1.
-2. B
-
-```yaml
-version: 1.0
-
-```
-
-
-### Challenge Section
-- Change your bluprint to version 1.1 and ensure that it will deploy to azure
-
-
-### Documentation Links
-[Integrating with Github](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
-
-[cloud-init](https://cloudinit.readthedocs.io/en/latest/)
-
+#### Lab Objective: Integrating Ansible with Cloud Assembly
+1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
+2.  Click 'Infrastructure' and then 'Integrations'
+3.  Click 'ADD INTEGRATION' and select 'Ansible'
+4.  Under 'Hostname' type 'ansible.vmwapj.com'
+5.  Leave 'SSH Port' with the predefined defaults
+6.  Under 'Inventory file path' type '/home/socialab/hosts'
+7.  Under 'Location' select 'Public Cloud'
+8.  Under 'Username' type 'socialab'
+9.  Tick 'Use sudo commands for this user'
+10. Under 'Password' type 'VMware1!' shhh keep it a secret!
+11. Under 'Name' type 'SociaLab' and click 'ADD'  
