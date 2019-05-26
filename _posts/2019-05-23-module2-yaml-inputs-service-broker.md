@@ -77,7 +77,7 @@ resources:
 To publish a blueprint into Service Broker it must first be versioned and released in Cloud Assembly
 
 ##### Cloud Assembly Blueprint Versioning
-1.  Click into the design canvas of the same blueprint 'Basic IaaS with Inputs'
+1.  Click into the canvas of the same blueprint 'Basic IaaS with Inputs'
 2.  Click 'VERSION'
 3.  Type in a version number, e.g. '1.0' and click 'Create'
 4.  Click on 'Version History'

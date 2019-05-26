@@ -29,6 +29,7 @@ cloudConfig: |
   package_update: true
   package_upgrade: all
 ```
+
 6.  To install packages use the attribute `packages` e.g. see example for Apache:
 ```yaml
 cloudConfig: |

@@ -25,3 +25,8 @@ description: 'Integrating Configuration Management'
 9.  Tick 'Use sudo commands for this user'
 10. Under 'Password' type 'VMware1!' shhh keep it a secret!
 11. Under 'Name' type 'SociaLab' and click 'ADD'  
+
+#### Adding Ansible to the blueprint YAML
+1.  Clone the 'Basic IaaS with Inputs' blueprint to a new blueprint named "Apache using Ansible" and remember select the project
+2.  To being adding Ansible configuration, drag the Ansible object onto the canvas
+3.  Create a connection between the Cloud Machine and Ansible objects, this will automatically populate Ansibles 'host' input with `'${resource.machine.*}'`
