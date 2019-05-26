@@ -16,7 +16,7 @@ description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ##### Blueprinting
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Select Blueprints > "New" to create a new blueprint
-3.  Provide a name for this blueprint, e.g. "Basic_IaaS"
+3.  Provide a name for this blueprint, e.g. "Basic IaaS"
 4.  Select the Project 'trading' and click 'Create'
 5.  Drag on a "Cloud Agnostic Machine" object onto the canvas, note how the YAML changes on the right side.
 6.  In the YAML, modify the `image` to represent `image: ubuntu` and `flavor` to `flavor: small`
@@ -38,7 +38,7 @@ constraints:
 4.  The deployment should be successful after a few minutes, you can click on it to view more details. After a successful deployment you can click on 'Actions' and 'Delete' to destroy it
 
 #### Challenge
--   Edit your blueprint so that you can deploy to Azure.
+- Edit your blueprint so that you can deploy to Azure.
 
 ### Congratulations you have completed Module 1! Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker
 
