@@ -17,7 +17,7 @@ description: 'Integrating with Version Control'
 
 In this lab we assume you already have a GitHub account.
 
-#### Steps to Integrate Cloud Assembly with GitHub
+#### Integrate Cloud Assembly with GitHub
 
 1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Click 'Infrastructure' and then 'Integrations'

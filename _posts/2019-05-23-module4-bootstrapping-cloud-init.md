@@ -44,7 +44,7 @@ cloudConfig: |
 ```
 
 #### Challenge
-- By default Apache doesn't start automatically, see if you can add attributes to 'Cloud-init' to start Apache.
+- By default Apache doesn't start automatically, see if you can add attributes to 'Cloud-init' to start Apache
 - Install Telegraf agent to push Operating System metrics to Wavefront
 
 ##### Challenge Hints
