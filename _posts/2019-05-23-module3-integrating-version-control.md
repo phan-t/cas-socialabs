@@ -6,6 +6,7 @@ tags:
   - Cloud Assembly
   - Blueprints
   - Version Control
+  - GitHub
 date: 2019-05-23
 series: cas-socialabs
 permalink: /module3/
@@ -21,7 +22,7 @@ In this lab we assume you already have a GitHub account.
 1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Click 'Infrastructure' and then 'Integrations'
 3.  Click 'ADD INTEGRATION' and select 'GitHub'
-4.  Under 'Token' enter '980eab2b85a542141c45eb469041314271a86a7c'
+4.  Under 'Token' enter '8920183a3fe464285f2c6c4a5da5a588d915dd6f'
 5.  Under 'Name' enter 'SociaLab'
 6.  Click 'Validate' and 'Add'
 
