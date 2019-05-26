@@ -1,5 +1,5 @@
 ---
-title: Integrating Configuration Management
+title: Integrating with Configuration Management
 author: Brett Drayton
 layout: cas
 tags:
@@ -10,7 +10,7 @@ tags:
 date: 2019-05-23
 series: cas-socialabs
 permalink: /module5/
-description: 'Integrating Configuration Management'
+description: 'Integrating with Configuration Management'
 ---
 
 #### Lab Objective: Integrating Ansible with Cloud Assembly
