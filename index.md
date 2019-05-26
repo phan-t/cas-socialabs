@@ -55,7 +55,7 @@ As part of the modules you will be asked to complete challenges. These are optio
         </tr>
         <tr>
             <td>5</td>
-            <td>Application Deployment with Configuration Management</td>
+            <td>Integrating with Configuration Management</td>
             <td>30 minutes</td>
         </tr>
         <tr>
