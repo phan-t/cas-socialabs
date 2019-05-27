@@ -17,13 +17,14 @@ Cloud-init is a package that contains utilities for early initialization of clou
 
 #### Adding Cloud-init configuration to the blueprint YAML
 1.  Clone the 'Basic IaaS with Inputs' blueprint to a new blueprint named "Apache using Cloud-init" and remember select the project
-2.  To being adding Cloud-init configuration, locate `- tag: '${input.platform}'` and hit 'Enter' to return a new line. The YAML will intent automatically however you will need to backspace about three times to make sure the intent is vertically the same as `constraints`
+2.  To begin adding Cloud-init configuration, locate `- tag: '${input.platform}'` and hit 'Enter' to return a new line. The YAML will intent automatically however you will need to backspace about three times to make sure the intent is vertically the same as `constraints`
 3.  Type `cloudConfig: |` and hit 'Enter' to return a new line. Note: 'cloudConfig' represents 'Cloud-init' in Cloud Assembly
 4.  Hit 'tab' to intent once and type `#cloud-config` to add a comment the following code represents 'Cloud-init'
 5.  You are now ready to add the Cloud-init payload
 
-##### Using Clout-init to deploy packages
+##### Using Cloud-init to deploy packages
 1.  To deploy packages use the attribute `packages` e.g. for Apache:
+
 ```yaml
 cloudConfig: |
   #cloud-config
@@ -43,8 +44,9 @@ cloudConfig: |
 4.  Click 'Deploy'
 5.  The deployment should be successful after a few minutes, try browsing to the FQDN to IP address
 
-##### Using Clout-init to add users with SSH key
+##### Using Cloud-init to add users with SSH key
 1.  To install packages use the attribute `users` e.g. for 'socialab':
+
 ```yaml
 #cloud-config
 repo_update: true
@@ -69,12 +71,10 @@ users:
 5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0) to login
 
 #### Challenge
-- By default Apache doesn't start automatically, see if you can add attributes to 'Cloud-init' to start Apache
 - Install Telegraf agent to push Operating System metrics to Wavefront
 
 ##### Challenge Hints
 - `runcmd`
-- `sudo systemctl start httpd.service`
 - `bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ip-10-200-200-229.ap-southeast-2.compute.internal  --proxy-port 2878`
 
 #### Blueprint Example YAML

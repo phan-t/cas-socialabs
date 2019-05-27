@@ -37,5 +37,8 @@ In this lab we assume you already have a GitHub account.
 7.  Under 'Type' select 'BLUEPRINT' and click 'NEXT'
 8.  You should now have successful added GitHub as an integration, if you navigate to 'Blueprints' you should see new Blueprints that have sync'd from GitHub
 
+#### Challenge
+- Integrate with your own GitHub or GitLab, create and sync a blueprint
+
 #### Documentation Links
 [Integrating with Github](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-86778362-8C3B-4276-9F83-33E320EC960E.html).
