@@ -37,6 +37,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-twitter-plugin
 
 url: "https://cassociallabs.vmwapj.com"
 
