@@ -23,7 +23,7 @@ Cloud-init is a package that contains utilities for early initialization of clou
 5.  You are now ready to add the Cloud-init payload
 
 ##### Using Clout-init to deploy packages
-1.  To install packages use the attribute `packages` e.g. see example for Apache:
+1.  To deploy packages use the attribute `packages` e.g. for Apache:
 ```yaml
 cloudConfig: |
   #cloud-config
@@ -36,8 +36,15 @@ cloudConfig: |
    - httpd
 ```
 
+##### Deploying the Blueprint
+1.  Click 'Deploy'
+2.  Under 'Deployment Type' enter a 'Deployment Name'
+3.  Under 'Deployment Inputs' enter 'small'
+4.  Click 'Deploy'
+5.  The deployment should be successful after a few minutes, try browsing to the FQDN to IP address
+
 ##### Using Clout-init to add users with SSH key
-1.  To install packages use the attribute `users` e.g. see example for 'socialab':
+1.  To install packages use the attribute `users` e.g. for 'socialab':
 ```yaml
 #cloud-config
 repo_update: true
