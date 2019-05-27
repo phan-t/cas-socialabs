@@ -1,13 +1,13 @@
 ---
 title: Integrating with Configuration Management
-author: Brett Drayton
+author: Tony Phan
 layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
   - Configuration Management
   - Ansible
-date: 2019-05-23
+date: 2019-05-27
 series: cas-socialabs
 permalink: /module5/
 description: 'Integrating with Configuration Management'
