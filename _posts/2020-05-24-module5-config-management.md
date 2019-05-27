@@ -112,3 +112,4 @@ resources:
         update_cache: yes
         state: latest
 ```
+[Ansible Integration](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-9244FFDE-2039-48F6-9CB1-93508FCAFA75.html?hWord=N4IghgNiBc4HYGcCWAjCBTEBfIA)
