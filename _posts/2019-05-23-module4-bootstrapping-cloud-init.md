@@ -48,7 +48,7 @@ package_upgrade: all
 users:
   - name: socialab
     ssh-authorized-keys:
-    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcQSb7RhxBdmyUMRKAK+dGWnZZ0W5VYsmys6OQ39IiLOv1j9kJbVb+Lw5iuw9hdvdrLZOF5fpjKmfuBbeJLHJyaatL1xJ5qAr2sqwR3iVeiJG39iOWTtrxyrdRFgv8KP4taG5GIAfDPqnLZdM3q3Y9yw+cXARnS7vvCe38IVQVpS0mf+1TzRbgY2BwNvU1RbLLDDAstWMZFAfjctiippefF8Ndr16MPQ3Vy9Gm1sCIko/zXqPtJc/lHD8Cx2YjT6G/TAMQKTbuAfmOE/vDFhron5x0GAbasvTA6TSFi0qcbYQDodCW4ga2FshcYhxvhnzhA7xVvjbZYWsWcw9ngieT tphan@TPs-MacBook-Pro-13.local
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZ6c7SN6L7DuHO34SUpJAsisy9PJ1TkhiHCuJt3VzKOF0kZPrvDdV7pwU14pFR4jOopcH9Ukajc/BSGiuXuuh4wISKu/p22fH7uzThHav15YCONsgH3FNXCB3UIxkMU+RUOABMrplakoAHrNc2RDaEspwmyGbns6WI6RlNcILr//U6TdXKoht4k6x5S5FKe7GiDBXMePQwfknqWAroVZQiRSCXe0kYAz+Gh518U9IX0BeV5tjxL05QGp7HMCnggTCLA/bGc6rjK97Ujcjcs7MJU8LX0zEYxQeI/uCQzhKFvR3c1MKefjndxYNk6qSOTHyO1uj4/K0SHF62on2dpjZf
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     groups: sudo
     shell: /bin/bash
