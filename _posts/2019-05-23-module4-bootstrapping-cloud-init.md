@@ -44,7 +44,7 @@ cloudConfig: |
 4.  Click 'Deploy'
 5.  The deployment should be successful after a few minutes, try browsing to the FQDN to IP address
 
-##### Using Clout-init to add users with SSH key
+##### Using Cloud-init to add users with SSH key
 1.  To install packages use the attribute `users` e.g. for 'socialab':
 
 ```yaml
