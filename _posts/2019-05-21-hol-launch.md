@@ -39,5 +39,11 @@ The following steps will grant you access to VMware's Cloud Automation Services.
 3.  The 'HOL-1902-03-CMP' lab enrolment should be in the results with your temporary VMware Cloud Services credentials (myvmwarexx@vmware.hol.com), click on the credentials to activate the account
 4.  You should be on VMware Cloud Services login page, leave the temporary email address and click 'NEXT'
 5.  Enter the password 'VMware1!' and click 'SIGN IN'
+6.  If you get the message 'No Services Yet', you will need to switch the organisation. Follow the steps below, if you have the three components Cloud Automation Services available you are ready to being [Module 1](https://cas-socialabs.vmwapj.com/module1/)
+
+
+#### Switch Organizations
+1.  Click on your temporary VMware Cloud Services credentials (myvmwarexx@vmware.hol.com) near the top right corner
+2.  Click 'Change Organizations' and select 'HOL-1902-XX'
 
 Thats it! You should now have access to the three components of Cloud Automation Services and are ready to being [Module 1](https://cas-socialabs.vmwapj.com/module1/)
