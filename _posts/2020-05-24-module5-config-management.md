@@ -57,7 +57,7 @@ resources:
 ##### Blueprint Example YAML
 ```yaml
 version: 1
-name: Apache
+name: Apache using Ansible
 formatVersion: 1
 inputs: {}
 resources:

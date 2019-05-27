@@ -80,7 +80,7 @@ users:
 #### Blueprint Example YAML
 ```yaml
 version: 1.0
-name: Basic IaaS With Inputs
+name: Apache using Cloud-init
 formatVersion: 1
 inputs:
   image:
