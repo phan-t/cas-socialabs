@@ -69,12 +69,10 @@ users:
 5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0) to login
 
 #### Challenge
-- By default Apache doesn't start automatically, see if you can add attributes to 'Cloud-init' to start Apache
 - Install Telegraf agent to push Operating System metrics to Wavefront
 
 ##### Challenge Hints
 - `runcmd`
-- `sudo systemctl start httpd.service`
 - `bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ip-10-200-200-229.ap-southeast-2.compute.internal  --proxy-port 2878`
 
 #### Blueprint Example YAML
