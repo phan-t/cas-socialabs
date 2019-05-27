@@ -19,44 +19,42 @@
                                 <div>
                                     {{ content }}
                                 </div>
+                                <table class="table">
+                                        <thread>
+                                            <tr>
+                                                <th>
+                                                    This post is part of a series.
+                                                </th>
+                                            </tr>
+                                        </thread>
+                                        <tbody>
+                                                {% if page.series %}
+                                                {% assign count = '0' %}
+                                                {% assign idx = '0' %}
+                                                {% for post in site.posts reversed %}
+                                                    {% if post.series == page.series %}
+                                                        {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                                                        <tr>
+                                                        <td>
+                                                            Module {{ count }} -
+                                                            {% if page.url == post.url %}
+                                                                This Module
+                                                            {% else %}
+                                                                <a href="{{post.url}}">{{post.title}}</a>
+                                                            {% endif %}
+                                                        </td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% endfor %}
+                                                {% endif %}
+
+                                        </tbody>
+                                    </table>
                             </article>
                         </section>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         {% twitter https://twitter.com/vmwarecas maxwidth=400 limit=5 %}
-                    </div>
-                    <div class="col-sm-12 col-md-8">
-                        <table class="table">
-                            <thread>
-                                <tr>
-                                    <th>
-                                        This post is part of a series.
-                                    </th>
-                                </tr>
-                            </thread>
-                            <tbody>
-                                    {% if page.series %}
-                                    {% assign count = '0' %}
-                                    {% assign idx = '0' %}
-                                    {% for post in site.posts reversed %}
-                                        {% if post.series == page.series %}
-                                            {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-                                            <tr>
-                                            <td>
-                                                Module {{ count }} -
-                                                {% if page.url == post.url %}
-                                                    This Module
-                                                {% else %}
-                                                    <a href="{{post.url}}">{{post.title}}</a>
-                                                {% endif %}
-                                            </td>
-                                        </tr>
-                                        {% endif %}
-                                        {% endfor %}
-                                    {% endif %}
-
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </main>
