@@ -33,7 +33,7 @@ cloudConfig: |
   package_upgrade: all
 
   packages:
-   - httpd
+   - apache2
 ```
 
 ##### Deploying the Blueprint
@@ -112,10 +112,7 @@ resources:
         package_upgrade: all
 
         packages:
-         - httpd
-
-        runcmd:
-         - sudo systemctl start httpd.service  
+         - apache2
 ```
 
 #### Documentation Links
