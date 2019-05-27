@@ -80,7 +80,6 @@ resources:
       flavor: small
       constraints:
         - tag: 'platform:aws'
-        - tag: 'region:sydney'
       cloudConfig: |
         #cloud-config
         repo_update: true
