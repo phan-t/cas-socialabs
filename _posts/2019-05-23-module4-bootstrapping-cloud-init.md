@@ -24,6 +24,7 @@ Cloud-init is a package that contains utilities for early initialization of clou
 
 ##### Using Cloud-init to deploy packages
 1.  To deploy packages use the attribute `packages` e.g. for Apache:
+
 ```yaml
 cloudConfig: |
   #cloud-config
@@ -45,6 +46,7 @@ cloudConfig: |
 
 ##### Using Clout-init to add users with SSH key
 1.  To install packages use the attribute `users` e.g. for 'socialab':
+
 ```yaml
 #cloud-config
 repo_update: true
