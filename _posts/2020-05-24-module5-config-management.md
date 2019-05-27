@@ -76,7 +76,7 @@ resources:
   machine:
     type: Cloud.Machine
     properties:
-      image: ubuntu 18.04
+      image: ubuntu
       flavor: small
       constraints:
         - tag: 'platform:aws'
