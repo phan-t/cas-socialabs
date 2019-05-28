@@ -72,6 +72,7 @@ users:
 
 #### Challenge
 - Install Telegraf agent to push Operating System metrics to Wavefront
+- Create a file with "Hello world" as content, and 0644 as the permission set.
 
 ##### Challenge Hints
 - `runcmd`
