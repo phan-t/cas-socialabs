@@ -24,7 +24,7 @@ description: 'Integrating with Configuration Management'
 8.  Under 'Username' type 'socialab'
 9.  Tick 'Use sudo commands for this user'
 10. Under 'Password' type 'VMware1!' shhh keep it a secret!
-11. Under 'Name' type 'SociaLab' and click 'ADD'  
+11. Under 'Name' type 'Ansible' and click 'ADD'  
 
 #### Adding Ansible to the blueprint YAML
 1.  Clone the 'Basic IaaS with Inputs' blueprint to a new blueprint named "Apache using Ansible" and remember select the project
@@ -38,7 +38,7 @@ resources:
     properties:
       host: '${resource.machine.*}'
       osType: linux
-      account: SociaLab
+      account: Ansible
       username: socialab
       privateKeyFile: /home/socialab/socialab_id_rsa.pem
       playbooks:
