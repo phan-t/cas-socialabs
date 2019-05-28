@@ -71,11 +71,13 @@ users:
 5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0) to login
 
 #### Challenge
-- Install Telegraf agent to push Operating System metrics to Wavefront
+Refer to the [cloud-init docs.](https://cloudinit.readthedocs.io/en/latest/)
+- Create your own SSH keypair, and configure a new user with SSH access leveraging your keypair.
 - Create a file with "Hello world" as content, and 0644 as the permission set.
+- Install Telegraf agent to push Operating System metrics to Wavefront.
+
 
 ##### Challenge Hints
-- `runcmd`
 - `bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ip-10-200-200-229.ap-southeast-2.compute.internal  --proxy-port 2878`
 
 #### Blueprint Example YAML
