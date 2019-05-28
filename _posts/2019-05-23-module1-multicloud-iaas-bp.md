@@ -11,36 +11,32 @@ permalink: /module1/
 description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
 ---
 
-#### Lab Objective: Build a Multi-Cloud Blueprint
+### Lab Objective: Build a Cloud Agnostic Blueprint
 
-##### Blueprinting
+#### Instructions
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
-2.  Select Blueprints > "New" to create a new blueprint
-3.  Provide a name for this blueprint, e.g. "Basic IaaS"
-4.  Select the Project 'trading' and click 'Create'
-5.  Drag on a "Cloud Agnostic Machine" object onto the canvas, note how the YAML changes on the right side.
-6.  In the YAML, modify the `image` to represent `image: ubuntu` and `flavor` to `flavor: small`
-8.  Under `flavor: small` hit 'Enter' and add `constraints:` in the YAML.
-We can use tags to ensure that the blueprint is deployed to the appropriate cloud provided. Our options in the platform are: vSphere, VMware on AWS, AWS, Azure and GCP. For this lab we will utilise AWS.
-9.  Hit 'Enter' again to start a new line and notice how it auto populates `- tag:`
-10. Add `platform:aws` to specify the cloud provided
+2.  From the Blueprints tab, create a new blueprint. Call it **Basic IaaS**, and add it to the **trading** project.
+3.  Drag a Cloud Agnostic Machine object onto the canvas, and note how the YAML changes on the right side.
+4.  Modify the YAML so that the blueprint uses the **ubuntu** image, and the **small** flavor.
+5.  At the bottom of the YAML block, start a new line (correctly indented) and begin typing **constraints**. You can type this out in its entirety, or select the autocomplete option. Hit enter to start a new line and notice how it auto populates `- tag:`
+6. Add `platform:aws` to as a constraint for the placement decision().
 
-###### Example of constraints
+###### Sample YAML
 ```yaml
 constraints:
   - tag: 'platform:aws'
 ```
 
 ##### Deploying the Blueprint
-1.  Click 'Deploy'
-2.  Under 'Deployment Type' enter a 'Deployment Name'
-3.  Click 'Deploy'
-4.  The deployment should be successful after a few minutes, you can click on it to view more details. After a successful deployment you can click on 'Actions' and 'Delete' to destroy it
+1.  Deploy your blueprint, providing a name for the deployment.
+2.  After a few minutes the deployment should be complete. Click on the deployment name to view more details about the components within the deployment.
+Can you identify the internal IP address of the workload in your deployment?
 
 #### Challenge
 - Edit your blueprint so that you can deploy to Azure.
+- Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
 
-### Congratulations you have completed Module 1! Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker
+Congratulations! You have completed Module 1. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
 
 #### Blueprint Example YAML
 ```yaml
