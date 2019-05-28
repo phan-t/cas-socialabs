@@ -38,7 +38,7 @@ resources:
     properties:
       host: '${resource.machine.*}'
       osType: linux
-      account: SociaLab
+      account: Ansible
       username: socialab
       privateKeyFile: /home/socialab/socialab_id_rsa.pem
       playbooks:
