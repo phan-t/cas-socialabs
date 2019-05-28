@@ -22,7 +22,7 @@ In this lab we assume you already have a GitHub account.
 1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Click 'Infrastructure' and then 'Integrations'
 3.  Click 'ADD INTEGRATION' and select 'GitHub'
-4.  Under 'Token' enter '94f5ef553fbac66c8fb307d25a0567a8a89cfaaa'
+4.  Under 'Token' enter '127266483ef47e65c62bb916f963d5f132c087a0'
 5.  Under 'Name' enter 'SociaLab'
 6.  Click 'Validate' and 'Add'
 
