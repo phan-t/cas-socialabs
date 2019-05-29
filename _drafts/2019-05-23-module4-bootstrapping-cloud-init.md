@@ -68,7 +68,7 @@ users:
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
 4.  Click 'Deploy'
-5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0) to login
+5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0) to login. If you are using Putty use this .ppk [private key](https://www.dropbox.com/s/5ppz4xytxrnd3zt/socialab_id_rsa.ppk?dl=0)
 
 #### Challenge
 Refer to the [cloud-init docs.](https://cloudinit.readthedocs.io/en/latest/)
