@@ -27,10 +27,15 @@ description: 'Integrating with Configuration Management'
 11. Under 'Name' type 'Ansible' and click 'ADD'  
 
 #### Adding Ansible to the blueprint YAML
-1.  Clone the 'Basic IaaS with Inputs' blueprint to a new blueprint named "Apache using Ansible" and remember select the project
-2.  To being adding Ansible configuration, drag the Ansible object onto the canvas
-3.  Create a connection between the Cloud Machine and Ansible objects, this will automatically populate Ansibles 'host' input with `'${resource.machine.*}'`
-4.  Modify the Ansible YAMP properties to execute a playbook, e.g. for Apache:
+1.  Clone the 'Apache using Cloud-init' blueprint to a new blueprint named "Apache using Ansible" and remember select the project
+2.  Remove the following from 'Cloud-init':
+```yaml
+packages:
+ - apache2
+```
+3.  To being adding Ansible configuration, drag the Ansible object onto the canvas
+4.  Create a connection between the Cloud Machine and Ansible objects, this will automatically populate Ansibles 'host' input with `'${resource.machine.*}'`
+5.  Modify the Ansible YAMP properties to execute a playbook, e.g. for Apache:
 ```yaml
 resources:
   Cloud_Ansible_1:
