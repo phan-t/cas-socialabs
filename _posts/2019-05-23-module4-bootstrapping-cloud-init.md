@@ -25,17 +25,7 @@ Cloud-init is a package that contains utilities for early initialization of clou
 ##### Using Cloud-init to deploy packages
 1.  To deploy packages use the attribute `packages` e.g. for Apache:
 
-```yaml
-cloudConfig: |
-  #cloud-config
-  repo_update: true
-  repo_upgrade: all
-  package_update: true
-  package_upgrade: all
-
-  packages:
-   - apache2
-```
+{% gist db11c44a3caaba02052cb4e5995fedda %}
 
 ##### Deploying the Blueprint
 1.  Click 'Deploy'
@@ -46,6 +36,8 @@ cloudConfig: |
 
 ##### Using Cloud-init to add users with SSH key
 1.  To install packages use the attribute `users` e.g. for 'socialab':
+
+
 
 ```yaml
 #cloud-config
@@ -68,17 +60,17 @@ users:
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
 4.  Click 'Deploy'
-5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0) to login
+5.  The deployment should be successful after a few minutes, try using SSH with the [private key](https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=1) to login.
 
 #### Challenge
 Refer to the [cloud-init docs.](https://cloudinit.readthedocs.io/en/latest/)
-- Create your own SSH keypair, and configure a new user with SSH access leveraging your keypair.
-- Create a file with "Hello world" as content, and 0644 as the permission set.
+- Without using runcmd, create a file with "Hello world" as content, and 0644 as the permission set.
 - Install Telegraf agent to push Operating System metrics to Wavefront.
 
 
 ##### Challenge Hints
-- `bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ip-10-200-200-229.ap-southeast-2.compute.internal  --proxy-port 2878`
+- Search the cloud-init docs for write_files
+- `bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878`
 
 #### Blueprint Example YAML
 ```yaml
