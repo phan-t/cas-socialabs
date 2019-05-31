@@ -1,22 +1,17 @@
 ---
-title: Objective One
+title: Working with Inputs Advanced
 author: Grant Orchard
 layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
+  - YAML
+  - Inputs
+  - Advanced
 date: 2019-05-15
-series: cas-socialabs
-permalink: /objective1/
-description: 'Adding user defined inputs to your Cloud Assembly blueprints.'
-image: /assets/images/cas/cloudassembly/blueprint-inputs/blueprint-inputs.png
+permalink: /inputsadvanced/
+description: 'AWorking with Inputs Advanced'
 ---
-
-In this lab, you will be creating a simple blueprint, and deploying it to both Azure and AWS using constraints.
-
-
-
-{% lightbox /assets/images/cas/cloudassembly/blueprint-inputs/inputs.gif --title="Cloud Assembly Blueprint Inputs" --alt="Using Cloud Assembly Blueprints" --data="blueprint-inputs" --img-style="max-width:80%" %}
 
 ### Input Schema
 
