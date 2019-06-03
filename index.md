@@ -35,7 +35,7 @@ As part of the modules you will be asked to complete challenges. These are optio
     <tbody>
         <tr>
             <td>1</td>
-            <td>Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting</td>
+            <td>Cloud Agnostic Blueprinting</td>
             <td>30 minutes</td>
         </tr>
         <tr>
@@ -45,7 +45,7 @@ As part of the modules you will be asked to complete challenges. These are optio
         </tr>
         <tr>
             <td>3</td>
-            <td>Integrating with Version Control</td>
+            <td>Leveraging External Version Control</td>
             <td>15 minutes</td>
         </tr>
         <tr>
@@ -60,10 +60,13 @@ As part of the modules you will be asked to complete challenges. These are optio
         </tr>
         <tr>
             <td>6</td>
-            <td>Integrating with Third-Party Systems through Extensibility</td>
+            <td>Interacting with Third-Party Systems through Extensibility</td>
             <td>30 minutes</td>
         </tr>
     </tbody>
 </table>
 
 We encourage the use of hand signals to seek attention. This method can be used if you a question, having objective problems, thirsty, hungry or if you just don't like the presenter.
+
+This guide is generated from [the following repo.](https://github.com/grantorchard/cas-socialabs/)
+Please log any issues with the manuals, blueprints, or other content for us to resolve.
