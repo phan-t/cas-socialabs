@@ -9,22 +9,19 @@ tags:
   - GitHub
 date: 2019-05-23
 series: cas-socialabs
-permalink: /module3/
-description: 'Integrating with Version Control'
+permalink: /leveraging-version-control/
+description: 'Take advantage of both native and external version control integration to your blueprints.'
 ---
 
-#### Lab Objective: Integrating Cloud Assembly with GitHub
-
-In this lab we assume you already have a GitHub account.
+#### Lab Objective
+In this lab you will learn how to take advantage of external version control systems for blueprint management.
 
 #### Integrate Cloud Assembly with GitHub
 
-1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
-2.  Click 'Infrastructure' and then 'Integrations'
-3.  Click 'ADD INTEGRATION' and select 'GitHub'
-4.  Under 'Token' enter '5e99999c7bf6a5ee5   4939a88608c23c143041db0'
-5.  Under 'Name' enter 'SociaLab'
-6.  Click 'Validate' and 'Add'
+1. If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
+2. Look for the Integrations menu item on the Infrastructure tab, and create a new Github endpoint called SociaLab.
+3. Use the following token value, removing the space: '5e99999c7bf6a5ee5 4939a88608c23c143041db0'
+4.  Validate and Add the endpoint.
 
 #### Assigning a Repository to a Project
 
