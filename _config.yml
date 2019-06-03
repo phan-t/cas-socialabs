@@ -11,6 +11,10 @@ social:
 logo: /images/gologo.svg
 author: Grant Orchard
 
+exclude:
+  - CONTRIBUTING.md
+  - README.md
+
 assets:
   sources:
     - /assets/images
@@ -19,6 +23,7 @@ assets:
   compress:
     css: true
     js: true
+
 plugins:
   - jekyll-assets
   - jekyll-seo-tag
