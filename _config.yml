@@ -1,17 +1,4 @@
 name: Cloud Automation Services SociaLabs
-markdown: kramdown
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: true
- syntax_highlighter: rouge
- syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
 
 title: Cloud Automation Services SociaLabs
 
@@ -39,7 +26,7 @@ plugins:
   - jekyll-gist
   - jekyll-twitter-plugin
 
-url: "https://cassociallabs.vmwapj.com"
+url: "https://cas-socialabs.vmwapj.com"
 
 
 sizes: '(min-width: 70em) 1000px, (min-width: 50em) 750px, (min-width: 31.5em) 500px, 100vw'
