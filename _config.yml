@@ -1,5 +1,18 @@
-name: Cloud Automation Services SociaLabs
+markdown: kramdown
+highlighter: rouge
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+name: Cloud Automation Services SociaLabs
 title: Cloud Automation Services SociaLabs
 
 social:
