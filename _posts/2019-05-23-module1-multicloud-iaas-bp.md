@@ -1,5 +1,5 @@
 ---
-title: Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting
+title: Cloud Agnostic Blueprinting
 author: Brett Drayton
 layout: cas
 tags:
@@ -7,8 +7,8 @@ tags:
   - Blueprints
 date: 2019-05-23
 series: cas-socialabs
-permalink: /module1/
-description: 'Multi-Cloud Infrastructure-as-a-Service (IaaS) Blueprinting'
+permalink: /cloud-agnostic-blueprinting/
+description: 'Cloud Agnostic Blueprinting'
 ---
 
 ### Lab Objective: Build a Cloud Agnostic Blueprint
