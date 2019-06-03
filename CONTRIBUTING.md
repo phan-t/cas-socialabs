@@ -1,6 +1,6 @@
 This repo leverages jekyll to build a static site at https://cas-socialabls.vmwapj.com
 
-Refer to https://jekyllrb.com/docs/installation/ to install Jekyll on your local machine, clone this repo and then 
+Refer to https://jekyllrb.com/docs/installation/ to install Jekyll on your local machine.
 
 The text below (including the ---) can be used as a template for a new post.
 
