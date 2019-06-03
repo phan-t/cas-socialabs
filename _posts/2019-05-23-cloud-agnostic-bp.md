@@ -11,9 +11,10 @@ permalink: /cloud-agnostic-blueprinting/
 description: 'Cloud Agnostic Blueprinting'
 ---
 
-### Lab Objective: Build a Cloud Agnostic Blueprint
+### Lab Objective
+Build a Cloud Agnostic Blueprint
 
-#### Instructions
+### Instructions
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  From the Blueprints tab, create a new blueprint. Call it **Basic IaaS**, and add it to the **trading** project.
 3.  Drag a Cloud Agnostic Machine object onto the canvas, and note how the YAML changes on the right side.
