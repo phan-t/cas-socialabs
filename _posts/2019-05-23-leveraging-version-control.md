@@ -13,7 +13,7 @@ permalink: /leveraging-version-control/
 description: 'Take advantage of both native and external version control integration to your blueprints.'
 ---
 
-#### Lab Objective
+### Lab Objective
 In this lab you will learn how to take advantage of external version control systems for blueprint management.
 
 #### Integrate Cloud Assembly with GitHub

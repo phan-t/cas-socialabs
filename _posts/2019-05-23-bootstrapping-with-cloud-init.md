@@ -12,7 +12,7 @@ permalink: /module4/
 description: 'Bootstrapping Guest Configuration with Cloud-init'
 ---
 
-#### Lab Objective: Using Cloud-init to customize the Operation System
+### Lab Objective: Using Cloud-init to customize the Operation System
 Cloud-init is a package that contains utilities for early initialization of cloud instances. It is needed in Arch Linux images that are built with the intention of being launched in cloud like OpenStack, AWS, Azure and so on.
 
 #### Adding Cloud-init configuration to the blueprint YAML
@@ -22,23 +22,31 @@ Cloud-init is a package that contains utilities for early initialization of clou
 4.  Hit 'tab' to intent once and type `#cloud-config` to add a comment the following code represents 'Cloud-init'
 5.  You are now ready to add the Cloud-init payload
 
-##### Using Cloud-init to deploy packages
+#### Using Cloud-init to deploy packages
 1.  To deploy packages use the attribute `packages` e.g. for Apache:
 
-{% gist db11c44a3caaba02052cb4e5995fedda %}
+```yaml
+cloudConfig: |
+  #cloud-config
+  repo_update: true
+  repo_upgrade: all
+  package_update: true
+  package_upgrade: all
 
-##### Deploying the Blueprint
+  packages:
+   - apache2
+
+```
+
+#### Deploying the Blueprint
 1.  Click 'Deploy'
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
 4.  Click 'Deploy'
 5.  The deployment should be successful after a few minutes, try browsing to the FQDN to IP address
 
-##### Using Cloud-init to add users with SSH key
+#### Using Cloud-init to add users with SSH key
 1.  To install packages use the attribute `users` e.g. for 'socialab':
-
-
-
 ```yaml
 #cloud-config
 repo_update: true
@@ -53,9 +61,10 @@ users:
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     groups: sudo
     shell: /bin/bash
+
 ```
 
-##### Deploying the Blueprint
+#### Deploying the Blueprint
 1.  Click 'Deploy'
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
@@ -108,6 +117,7 @@ resources:
 
         packages:
          - apache2
+
 ```
 
 #### Documentation Links

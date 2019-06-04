@@ -18,7 +18,7 @@ description: 'Working with Inputs and Service Broker'
 #### Inputs
 Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
 
-##### Creating and Using Inputs as Variables
+#### Creating and Using Inputs as Variables
 1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs" and remember select the project
 3.  To being adding inputs, locate `inputs: {}` and remove the curly brackets `{}`
@@ -27,14 +27,15 @@ Inputs are a mechanism for assigning variables to blueprint components at reques
 6.  Enter the input type `type: string`
 7.  Replace the value `small` in the YAML with `${input.tshirtsize}`
 
-###### Example of inputs
+##### Example of inputs
 ```yaml
 inputs:
   tshirtsize:
     type: string
+
 ```
 
-##### Deploying the Blueprint
+#### Deploying the Blueprint
 1.  Click 'Deploy'
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
@@ -71,19 +72,20 @@ resources:
       flavor: small
       constraints:
         - tag: '${input.platform}'
+
 ```
 
 #### Service Broker
 To publish a blueprint into Service Broker it must first be versioned and released in Cloud Assembly
 
-##### Cloud Assembly Blueprint Versioning
+#### Cloud Assembly Blueprint Versioning
 1.  Click into the canvas of the same blueprint 'Basic IaaS with Inputs'
 2.  Click 'VERSION'
 3.  Type in a version number, e.g. '1.0' and click 'Create'
 4.  Click on 'Version History'
 5.  Click 'Release' on the version just created '1.0' and click 'Release' again
 
-##### Publishing Cloud Assembly Blueprints in Service Broker
+#### Publishing Cloud Assembly Blueprints in Service Broker
 1.  Navigate to the Service Broker service
 2.  Click 'Content & Policies'
 3.  Click 'NEW'
