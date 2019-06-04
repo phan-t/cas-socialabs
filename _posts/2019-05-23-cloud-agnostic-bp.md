@@ -5,7 +5,7 @@ layout: cas
 tags:
   - Cloud Assembly
   - Blueprints
-date: 2019-05-22
+date: 2019-05-23
 series: cas-socialabs
 permalink: /cloud-agnostic-blueprinting/
 description: 'Cloud Agnostic Blueprinting'

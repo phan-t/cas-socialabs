@@ -7,7 +7,7 @@ tags:
   - Blueprints
   - Version Control
   - GitHub
-date: 2019-05-23
+date: 2019-05-24
 series: cas-socialabs
 permalink: /leveraging-version-control/
 description: 'Take advantage of both native and external version control integration to your blueprints.'

@@ -6,7 +6,7 @@ tags:
   - Cloud Assembly
   - Blueprints
   - Cloud-init
-date: 2019-05-23
+date: 2019-05-24
 series: cas-socialabs
 permalink: /module4/
 description: 'Bootstrapping Guest Configuration with Cloud-init'
