@@ -200,6 +200,10 @@ samp {
 	font-size: 12px
 }
 
+pre.lineno {
+	color: #9a9a9a
+}
+
 figure {
 	margin: 1em 40px
 }
