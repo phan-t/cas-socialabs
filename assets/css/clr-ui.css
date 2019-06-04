@@ -196,8 +196,8 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
-	font-size: 1em
+	font-family: Monaco, Menlo;
+	font-size: 12px
 }
 
 figure {
@@ -4087,15 +4087,13 @@ html {
 	font-size: 24px
 }
 
-/*
 pre {
 	margin: .5rem 0;
-	border: 1px solid #ccc;
+/*	border: 1px solid #ccc; */
 	max-height: 15rem;
 	border-radius: .125rem;
 	overflow: auto
 }
-*/
 
 pre code {
 	white-space: pre
