@@ -1,4 +1,5 @@
 deploy.sh
 s3_website.yml
 _site
+.vscode
 .tweet-cache
