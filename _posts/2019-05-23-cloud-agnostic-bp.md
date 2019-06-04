@@ -26,7 +26,6 @@ Build a Cloud Agnostic Blueprint
 ```yaml
 constraints:
   - tag: 'platform:aws'
-
 ```
 
 #### Deploying the Blueprint
@@ -56,7 +55,6 @@ resources:
       flavor: small
       constraints:
         - tag: 'platform:aws'
-
 ```
 
 #### Documentation Links

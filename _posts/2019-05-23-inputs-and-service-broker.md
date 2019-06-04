@@ -32,7 +32,6 @@ Inputs are a mechanism for assigning variables to blueprint components at reques
 inputs:
   tshirtsize:
     type: string
-
 ```
 
 #### Deploying the Blueprint
@@ -72,7 +71,6 @@ resources:
       flavor: small
       constraints:
         - tag: '${input.platform}'
-
 ```
 
 #### Service Broker

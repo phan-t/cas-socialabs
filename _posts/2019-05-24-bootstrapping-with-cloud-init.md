@@ -35,7 +35,6 @@ cloudConfig: |
 
   packages:
    - apache2
-
 ```
 
 #### Deploying the Blueprint
@@ -61,7 +60,6 @@ users:
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     groups: sudo
     shell: /bin/bash
-
 ```
 
 #### Deploying the Blueprint
@@ -117,7 +115,6 @@ resources:
 
         packages:
          - apache2
-
 ```
 
 #### Documentation Links

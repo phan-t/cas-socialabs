@@ -34,7 +34,6 @@ description: 'Integrating with Configuration Management'
 ```yaml
 packages:
  - apache2
-
 ```
 3.  To being adding Ansible configuration, drag the Ansible object onto the canvas
 4.  Create a connection between the Cloud Machine and Ansible objects, this will automatically populate Ansibles 'host' input with `'${resource.machine.*}'`
@@ -53,7 +52,6 @@ resources:
         provision: /home/socialab/apache.yml
       groups:
         - apache
-
 ```
 
 #### Deploying the Blueprint
@@ -103,7 +101,6 @@ resources:
             sudo: ['ALL=(ALL) NOPASSWD:ALL']
             groups: sudo
             shell: /bin/bash
-
 ```
 
 ##### Ansible Apache Playbook Example YAML
@@ -120,7 +117,6 @@ resources:
         name: apache2
         update_cache: yes
         state: latest
-
 ```
 
 #### Documentation Links
