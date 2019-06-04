@@ -4087,6 +4087,7 @@ html {
 	font-size: 24px
 }
 
+/*
 pre {
 	margin: .5rem 0;
 	border: 1px solid #ccc;
@@ -4094,6 +4095,7 @@ pre {
 	border-radius: .125rem;
 	overflow: auto
 }
+*/
 
 pre code {
 	white-space: pre
