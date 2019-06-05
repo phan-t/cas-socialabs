@@ -200,6 +200,10 @@ samp {
 	font-size: 12px
 }
 
+pre.lineno {
+	color: #9a9a9a
+}
+
 figure {
 	margin: 1em 40px
 }
@@ -4088,9 +4092,9 @@ html {
 }
 
 pre {
-	margin: .5rem 0;
+	margin: .5rem 0 0 .25rem;
 /*	border: 1px solid #ccc; */
-	max-height: 15rem;
+	max-height: 50rem;
 	border-radius: .125rem;
 	overflow: auto
 }

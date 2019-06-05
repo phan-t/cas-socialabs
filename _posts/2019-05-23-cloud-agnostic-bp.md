@@ -14,7 +14,7 @@ description: 'Cloud Agnostic Blueprinting'
 ### Lab Objective
 Build a Cloud Agnostic Blueprint
 
-### Instructions
+#### Blueprint Creation
 1.  Log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  From the Blueprints tab, create a new blueprint. Call it **Basic IaaS**, and add it to the **trading** project.
 3.  Drag a Cloud Agnostic Machine object onto the canvas, and note how the YAML changes on the right side.
@@ -25,12 +25,13 @@ Build a Cloud Agnostic Blueprint
 {% lightbox /assets/videos/basic_iaas.gif --title="Create a Basic IaaS Blueprint" --alt="Cloud Assembly Blueprinting" --data="basic-iaas" --img-style="max-width:80%" %}
 
 ###### Sample YAML
+
 ```yaml
 constraints:
   - tag: 'platform:aws'
 ```
 
-##### Deploying the Blueprint
+#### Deploying the Blueprint
 1.  Deploy your blueprint, providing a name for the deployment.
 2.  After a few minutes the deployment should be complete. Click on the deployment name to view more details about the components within the deployment.
 Can you identify the internal IP address of the workload in your deployment?
@@ -41,7 +42,7 @@ Can you identify the internal IP address of the workload in your deployment?
 
 Congratulations! You have completed Module 1. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
 
-#### Blueprint Example YAML
+##### Blueprint Example YAML
 ```yaml
 version: 1.0
 name: Basic IaaS

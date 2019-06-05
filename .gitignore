@@ -3,3 +3,4 @@ s3_website.yml
 _site
 .tweet-cache
 assets/.DS_Store
+.vscode

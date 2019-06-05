@@ -13,7 +13,9 @@ permalink: /module5/
 description: 'Integrating with Configuration Management'
 ---
 
-#### Lab Objective: Integrating Ansible with Cloud Assembly
+### Lab Objective: Integrating Ansible with Cloud Assembly
+
+#### Adding Ansible Integration
 1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile.
 2.  Click 'Infrastructure' and then 'Integrations'
 3.  Click 'ADD INTEGRATION' and select 'Ansible'
@@ -52,7 +54,7 @@ resources:
         - apache
 ```
 
-##### Deploying the Blueprint
+#### Deploying the Blueprint
 1.  Click 'Deploy'
 2.  Under 'Deployment Type' enter a 'Deployment Name'
 3.  Under 'Deployment Inputs' enter 'small'
@@ -116,4 +118,6 @@ resources:
         update_cache: yes
         state: latest
 ```
+
+#### Documentation Links
 [Ansible Integration](https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-9244FFDE-2039-48F6-9CB1-93508FCAFA75.html?hWord=N4IghgNiBc4HYGcCWAjCBTEBfIA)

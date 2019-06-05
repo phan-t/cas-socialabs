@@ -45,7 +45,7 @@ As part of the modules you will be asked to complete challenges. These are optio
         </tr>
         <tr>
             <td>3</td>
-            <td>Leveraging External Version Control</td>
+            <td>Leveraging Version Control</td>
             <td>15 minutes</td>
         </tr>
         <tr>
