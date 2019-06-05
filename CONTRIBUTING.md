@@ -21,7 +21,7 @@ Describe what the purpose of the lab exercise is.
 
 ### Instructions
 1. Use a numbered list to provide **guidance** but not step by step instructions.
-2. We want people to feel a sense of accomplishment at figuing out how to do things within the platform.
+2. We want people to feel a sense of accomplishment at figuring out how to do things within the platform.
 3. If you think it will help, you can embed a gif or youtube video with the following syntax to take advantage of the lightbox. {% lightbox /assets/images/03.png --title="Start the lab" --alt="Using Cloud Assembly Blueprints" --data="getting-started" --img-style="max-width:80%" %}
 
 ### Hints
