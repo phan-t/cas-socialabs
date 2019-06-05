@@ -22,6 +22,8 @@ Build a Cloud Agnostic Blueprint
 5.  At the bottom of the YAML block, start a new line (correctly indented) and begin typing **constraints**. You can type this out in its entirety, or select the autocomplete option. Hit enter to start a new line and notice how it auto populates `- tag:`
 6. Add `platform:aws` to as a constraint for the placement decision().
 
+{% lightbox /assets/videos/basic_iaas.gif --title="Create a Basic IaaS Blueprint" --alt="Cloud Assembly Blueprinting" --data="basic-iaas" --img-style="max-width:80%" %}
+
 ###### Sample YAML
 ```yaml
 constraints:
