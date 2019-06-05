@@ -20,7 +20,7 @@ Build a Cloud Agnostic Blueprint
 3.  Drag a Cloud Agnostic Machine object onto the canvas, and note how the YAML changes on the right side.
 4.  Modify the YAML so that the blueprint uses the **ubuntu** image, and the **small** flavor.
 5.  At the bottom of the YAML block, start a new line (correctly indented) and begin typing **constraints**. You can type this out in its entirety, or select the autocomplete option. Hit enter to start a new line and notice how it auto populates `- tag:`
-6. Add `platform:aws` to as a constraint for the placement decision().
+6. Add `platform:aws` as a constraint for the placement decision.
 
 ##### Sample YAML
 ```yaml
