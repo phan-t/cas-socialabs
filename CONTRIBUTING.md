@@ -1,15 +1,15 @@
-This repo leverages jekyll to build a static site at https://cas-socialabls.vmwapj.com
+This repository leverages Jekyll to build a static site at https://cas-socialabls.vmwapj.com
 
 Refer to https://jekyllrb.com/docs/installation/ to install Jekyll on your local machine.
 
 The text below (including the ---) can be used as a template for a new post.
 
 ---
-title: Contributing # please don't embed a lesson number in the title. This will prevent flexibility of the content order at a later date.
+title: Contributing # please don't embed a lesson number in the title. This will prevent flexibility of the content order at a later date
 author: Grant Orchard
-layout: cas # the jekyll layout html that will be used for the post.
-date: 2019-05-15 # this metadata orders the posts in the series table.
-series: SocialLabs  # this parameter collects the posts into a series and adds them to the 'series' table at the bottom of the post.
+layout: cas # the Jekyll layout html that will be used for the post
+date: 2019-05-15 # this metadata orders the posts in the series table
+series: cas-socialabs  # this parameter collects the posts into a series and adds them to the 'series' table at the bottom of the post
 permalink: /descriptive-permalink-separated-by-dashes/ # please don't embed a lesson number in the title. This will prevent flexibility of the content order at a later date. Make sure to keep the trailing slash.
 description: 'This is an example markdown file that can be used to create a new module.'
 image: /assets/images/example.png
