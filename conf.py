@@ -80,11 +80,11 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'canonical_url': '',
     'analytics_id': 'UA-XXXXXXX-1',  # Provided by Google in your dashboard
-    'logo_only': False,
+    'logo_only': True,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    'style_nav_header_background': 'white',
+    'style_nav_header_background': '#353131',
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
@@ -118,7 +118,7 @@ html_sidebars = {}
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cas-socialabsdoc'
+htmlhelp_basename = 'Cloud Automation Services SociaLabs'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -145,7 +145,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'cas-socialabs.tex', 'cas-socialabs Documentation',
+    (master_doc, 'cas-socialabs.tex', 'Cloud Automation Services SociaLabs',
      'Tony Phan, Brett Drayton, and Grant Orchard', 'manual'),
 ]
 
@@ -155,7 +155,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cas-socialabs', 'cas-socialabs Documentation',
+    (master_doc, 'cas-socialabs', 'Cloud Automation Services SociaLab',
      [author], 1)
 ]
 
