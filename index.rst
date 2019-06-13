@@ -13,7 +13,9 @@ Welcome to the Cloud Automation SociaLabs!
    :caption: Labs:
    :hidden:
 
+   _labs/agnostic constructs
    _labs/cloud agnostic bp
+
 
 
 .. toctree::
