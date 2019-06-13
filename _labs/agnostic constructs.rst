@@ -26,6 +26,18 @@ Agnostic constructs are the means by which we map the specific details of an ima
 Cloud Zone Creation
 ===================
 
+Image Mapping Creation
+======================
+
+Flavor Mapping Creation
+=======================
+
+Network Profile Creation
+========================
+
+Storage Profile Creation
+========================
+
 
 Project Creation
 ================
