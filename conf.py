@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'cas-socialabs'
+project = 'Cloud Automation Services SociaLabs'
 copyright = '2019, Tony Phan, Brett Drayton, and Grant Orchard'
 author = 'Tony Phan, Brett Drayton, and Grant Orchard'
 
@@ -156,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cas-socialabs', 'Cloud Automation Services SociaLab',
+    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLab',
      [author], 1)
 ]
 
@@ -167,8 +167,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'cas-socialabs', 'cas-socialabs Documentation',
-     author, 'cas-socialabs', 'One line description of project.',
+    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLabs Documentation',
+     author, 'Cloud Automation Services SociaLabs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
