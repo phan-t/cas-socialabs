@@ -117,6 +117,7 @@ Solution
             const: 'small'
           - title: Medium 
             const: 'medium'
+        default: Small
     resources:
     machine:
       type: Cloud.Machine
