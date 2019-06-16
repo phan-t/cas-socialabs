@@ -63,8 +63,9 @@ Do you see an apache landing page?
 Challenge
 ==============
 Refer to the `cloud-init docs <https://cloudinit.readthedocs.io/en/latest/>`__
-- Without using runcmd, create a file with "Hello world" as content, and 0644 as the permission set.
-You will require the following command.
+1. Without using runcmd, create a file with "Hello world" as content, and 0644 as the permission set.
+
+2. Ensure that when you deploy any VM from your blueprint that it is integrated into the Wavefront monitoring solution. You will require the following command.
 ``bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878``
 
 
