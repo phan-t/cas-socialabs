@@ -6,6 +6,7 @@ Step 01. Add a cloudConfig section to the yaml.
 
 .. code-block:: yaml
     :linenos:
+    :emphasize-lines: 21-28
 
     formatVersion: 1
     version: 1.0
@@ -42,6 +43,7 @@ Challenge 01. Write a file for apache to serve a "Hello World"
 
 .. code-block:: yaml
     :linenos:
+    :emphasize-lines: 8-12
 
         #cloud-config
         repo_update: true
@@ -62,7 +64,8 @@ Challenge 02. Configure the blueprint to install telegraph agent for wavefront i
 
 .. code-block:: yaml
     :linenos:
-
+    :emphasize-lines: 13-14
+    
         #cloud-config
         repo_update: true
         repo_upgrade: all
