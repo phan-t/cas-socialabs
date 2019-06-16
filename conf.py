@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'cas-socialabs'
+project = 'Cloud Automation Services SociaLabs'
 copyright = '2019, Tony Phan, Brett Drayton, and Grant Orchard'
 author = 'Tony Phan, Brett Drayton, and Grant Orchard'
 
@@ -79,7 +79,7 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
     'canonical_url': '',
-    'analytics_id': 'UA-XXXXXXX-1',  # Provided by Google in your dashboard
+    'analytics_id': 'UA-142045439-1',  # Provided by Google in your dashboard
     'logo_only': True,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
@@ -104,6 +104,7 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_logo = "_static/socialab-logo.svg"
+html_favicon = '_static/cloudassembly.png'
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -155,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cas-socialabs', 'Cloud Automation Services SociaLab',
+    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLabs',
      [author], 1)
 ]
 
@@ -166,8 +167,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'cas-socialabs', 'cas-socialabs Documentation',
-     author, 'cas-socialabs', 'One line description of project.',
+    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLabs Documentation',
+     author, 'Cloud Automation Services SociaLabs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
