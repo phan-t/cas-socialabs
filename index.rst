@@ -15,6 +15,7 @@ Welcome to the Cloud Automation SociaLabs!
 
    _labs/agnostic constructs
    _labs/cloud agnostic bp
+   _labs/working with inputs
 
 
 .. toctree::
@@ -22,7 +23,8 @@ Welcome to the Cloud Automation SociaLabs!
    :caption: Solutions:
    :hidden:
 
-   _solutions/cloud agnostic bp
+   _solutions/cloud agnostic blueprint
+   _solutions/working with inputs
 
 Getting Started
 ===============
