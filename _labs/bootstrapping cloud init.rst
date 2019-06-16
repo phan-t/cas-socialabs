@@ -20,8 +20,9 @@ Step 01. Add a cloudConfig section to the yaml.
 To begin adding Cloud-init configuration, locate ``- tag: '${input.tshirtsize}'`` and hit 'Enter' to return a new line. The YAML will intent automatically however you will need to backspace about three times to make sure the intent is vertically the same as `constraints`
 Type ``cloudConfig: |`` and hit 'Enter' to return a new line. Note: 'cloudConfig' represents 'Cloud-init' in Cloud Assembly
 Hit 'tab' to intent once and type ``#cloud-config`` to add a comment the following code represents 'Cloud-init'
-You are now ready to add the Cloud-init payload
-.. code-block:: yaml
+You are now ready to add the Cloud-init payload.
+
+.. code:: yaml
 
     formatVersion: 1
     version: 1.0
