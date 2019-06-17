@@ -26,6 +26,8 @@ Welcome to the Cloud Automation SociaLabs!
 
    _solutions/cloud agnostic blueprint
    _solutions/working with inputs
+   _solutions/bootstrapping with cloud init
+   
 
 Getting Started
 ===============
