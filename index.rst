@@ -27,12 +27,12 @@ Welcome to the Cloud Automation SociaLabs!
    _solutions/cloud agnostic blueprint
    _solutions/working with inputs
    _solutions/bootstrapping with cloud init
-   
+
 
 Getting Started
 ===============
 
-Login to the `VMware Cloud Services portal. <https://console.cloud.vmware.com>`__
+Login to the `VMware Cloud Services Portal. <https://console.cloud.vmware.com>`__
 
 As part of the modules you will be asked to complete challenges. These are optional however it is suggested you attempt to complete these, we may give out a prize for the person who successfully completes the most. More information available on the `challenges <https://cas-socialabs.vmwapj.com/challenge/>`__ page.
 
@@ -40,11 +40,13 @@ As part of the modules you will be asked to complete challenges. These are optio
 +----------+---------------------------------------------------+---------------------------+
 | Module   | Title                                             | Estimated Completion Time |
 +==========+===================================================+===========================+
+| 1        | Projects and Agnostic Constructs                  | 15 minutes                |
++----------+---------------------------------------------------+---------------------------+
 | 2        | Cloud Agnostic Blueprinting                       | 30 minutes                |
 +----------+---------------------------------------------------+---------------------------+
 | 3        | Leveraging Version Control                        | 15 minutes                |
 +----------+---------------------------------------------------+---------------------------+
-| 4        | Workign with Inputs                               | 15 minutes                |
+| 4        | Working with Inputs                               | 15 minutes                |
 +----------+---------------------------------------------------+---------------------------+
 | 5        | Bootstrapping Guest Configuration with cloud-init | 15 minutes                |
 +----------+---------------------------------------------------+---------------------------+
