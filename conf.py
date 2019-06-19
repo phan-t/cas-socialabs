@@ -79,7 +79,7 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
     'canonical_url': '',
-    'analytics_id': 'UA-XXXXXXX-1',  # Provided by Google in your dashboard
+    'analytics_id': 'UA-142045439-1',  # Provided by Google in your dashboard
     'logo_only': True,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
@@ -156,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLab',
+    (master_doc, 'Cloud Automation Services SociaLabs', 'Cloud Automation Services SociaLabs',
      [author], 1)
 ]
 
