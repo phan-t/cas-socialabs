@@ -46,6 +46,7 @@ cloudConfig: |
 
 #### Using Cloud-init to add users with SSH key
 1.  To install packages use the attribute `users` e.g. for 'socialab':
+
 ```yaml
 #cloud-config
 repo_update: true
