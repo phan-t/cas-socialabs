@@ -40,6 +40,19 @@ You should have already received an email titled **Invitation to VMware Cloud Se
 Cloud Zone Creation
 ===================
 
+Step 01. Initial Configuration
+------------------------------
+
+1.  Click on the **Cloud Assembly** tile
+2.  Click on the **Infrastructure** tab from the top horizontal menu
+3.  Click on the **Cloud Zones** item from the left menu
+
+Step 02.  Creating a new Cloud Zone
+-----------------------------------
+
+1.  
+
+
 Image Mapping Creation
 ======================
 
