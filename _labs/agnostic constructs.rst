@@ -29,7 +29,7 @@ Accessing Cloud Automation Services
 
 You should have already received an email titled **Invitation to VMware Cloud Services** granting temporary access to Cloud Assembly, Service Broker, and Code Steam. We used the email address submitted during event registration, if you haven't received this please notify an instructor.
 
-.. note:: If you already have access to VMware Cloud Services, skip this step and proceed to login with your credentials and change to the Organisation *SPC-TMMxx*
+.. note:: If you already have access to VMware Cloud Services, skip this step and proceed to login with your credentials and change the Organisation to *SPC-TMMxx*
 
 1.  Click on **Join VMware Cloud Services** link provided, you'll be directed to create a new account
 2.  Complete the required fields, agree to the terms and conditions and click *Sign Up*
