@@ -82,7 +82,7 @@ Conclusion
 
 In this lab we explored how to create an agnostic blueprint and use constraints to influence the placement decisions.
 
-Congratulations! You have completed Module 1. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
+Congratulations! You have completed Lab 2. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
 
 Further Readings
 ================
