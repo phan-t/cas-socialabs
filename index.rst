@@ -69,8 +69,6 @@ Before each module, the instructor will discuss and demonstrate the topic. Whils
 +----------+---------------------------------------------------+---------------------------+
 | 6        | Integrating with Configuration Management         | 30 minutes                |
 +----------+---------------------------------------------------+---------------------------+
-| 7        | Interacting with Third-Party Systems              | 30 minutes                |
-+----------+---------------------------------------------------+---------------------------+
 
 
 We encourage the use of hand signals to seek attention. This method can be used if you a question, having objective problems, thirsty, hungry or if you just don't like the presenter.
