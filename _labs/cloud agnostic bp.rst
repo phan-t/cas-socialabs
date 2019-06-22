@@ -10,7 +10,7 @@ Blueprint Creation
 ==================
 Cloud Assembly provides both a visual canvas and a YAML editor to interact with. To begin, you'll use the canvas. Click on the Blueprints tab to get started.
 
-Create a new blueprint. Call it **Basic IaaS**, and add it to the **SociaLab** project.
+Create a new blueprint. Call it **Basic IaaS**, and add it to the **socialabs** project.
 
 Create Cloud Agnostic Machine
 -----------------------------

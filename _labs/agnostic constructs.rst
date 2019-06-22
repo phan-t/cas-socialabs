@@ -35,7 +35,7 @@ Cloud administrators set up the projects, to which they can add users and cloud 
 
 1.  Click on the **Projects** item from the left menu
 2.  Click on the **New Project** button
-3.  For **Name** type *SociaLab*
+3.  For **Name** type *SociaLabs*
 4.  Click on the **Users** tab
 5.  Click on the **Add Users** button add your email address and click on the **Add** button
 6.  Click on the **Provisioning** tab
