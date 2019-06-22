@@ -40,9 +40,6 @@ You should have already received an email titled **Invitation to VMware Cloud Se
 Cloud Zone Review
 ===================
 
-Step 01. Review Configuration
-------------------------------
-
 Cloud Zones have been pre-created as part of the lab's automated process. Let's go have a look at them.
 
 1.  Click on the **Cloud Assembly** tile
@@ -77,24 +74,6 @@ Network Profile Creation
 
 Storage Profile Creation
 ========================
-
-
-
-
-
-Step 01. Initial Configuration
-------------------------------
-From the Infrastructure tab, locate the Projects menu item, and create a new Project called "socialabs".
-
-
-Step 02. Add Users
-------------------
-
-Step 03. Add Cloud Zones
-------------------------
-
-Step 04. Configure a Custom Property
-------------------------------------
 
 Further Reading
 ===============
