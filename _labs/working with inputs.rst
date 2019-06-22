@@ -1,13 +1,11 @@
 Lab 04. Working with Inputs
-***********************************
+***************************
 
 In this lab we will learn how we can provide the consumer of Cloud Assembly and Service broker later on on the training with options at the time of deployment.
 These options are actually variables that can be utilised a numeber of ways.
 In this lab you will learn how to implement input variables that will make decisions such as clodu placement or operating system selection.
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
-
-
 
 
 Inputs
@@ -81,13 +79,69 @@ Did the deployment deploy at the correct size?
 
 Troubleshooting Provisioning Issues
 ===================================
+=======
+Creating and Using Inputs as Variables
+======================================
+Clone the 'Basic IaaS' blueprint to a new blueprint named 'Basic IaaS with Inputs' and remember to select the project.
 
-Keep Exploring
-==============
+.. important:: If '' following a field indicates a string, and [] following a field indicates an array, what data type do you think inputs is, with its curly braces?
 
-- Edit your blueprint so that you provide the consumer with the option to deploy to either AWS or Azure.
+Step 01. Creating Your First Input
+----------------------------------
+Replace your blueprint YAML with the sample provided below.
 
-Congratulations! You have completed Module 4!
+.. code-block:: yaml
+    :linenos:
+
+    formatVersion: 1
+    inputs:
+      tshirtsize:
+        #TODO: set the type of tshirtsize to string
+        #Refer to https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html
+    resources:
+      Cloud_Machine_1:
+      type: Cloud.Machine
+      properties:
+        image: ubuntu
+        flavor: ${input.tshirtsize}
+        constraints:
+          - platform: aws
+
+Step 02. Deploy the Blueprint
+-----------------------------
+Once you click on the Deploy button, you will see the same prompt as before. Give your deployment a name and move to the next screen.
+Do you notice anything different?
+Enter 'small' under the tshirtsize input field, and complete the deployment.
+
+What do you think would happen if you typed 'Small' instead of 'small'?
+
+Step 03. Refining Your Input
+----------------------------
+As alluded to, a free form text field could lead to problems when a specific syntax is required. Also, 'tshirtsize' is not all that user friendly a field name. You should probably change that.
+
+Replace your blueprint YAML with the sample provided below.
+
+.. code-block:: yaml
+    :linenos:
+
+    formatVersion: 1
+    inputs:
+      tshirtsize:
+        type: string
+        #TODO: set the title of the tshirtsize input to be size.
+        #TODO: create an enum list with values of small, medium, and large.
+        #Refer to https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html
+    resources:
+      Cloud_Machine_1:
+      type: Cloud.Machine
+      properties:
+        image: ubuntu
+        flavor: ${input.tshirtsize}
+        constraints:
+          - platform: aws
+
+Begin deploying your blueprint again to review the inputs page. Can you see the differences these small changes have made?
+
 
 Lab 04. Conclusion
 ------------------
@@ -126,4 +180,8 @@ Solution
       flavor: '${input.tshirtsize}'
       constraints:
         - tag: 'platform:aws'
+=======
+1. Add an input that allows the user to specify the count of nodes VMs that will be deployed, with a minimum of 1 and a maximum of 3. Remember to make sure that your Cloud Machine resource can use the input value.
+
+2. Create an input that accepts an email address, and define a regex pattern to ensure a valid email address is entered.
 
