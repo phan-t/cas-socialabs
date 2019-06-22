@@ -1,4 +1,4 @@
-Lab 03. Working with Inputs
+Lab 04. Working with Inputs
 ***************************
 
 Step 01. Creating Your First Input
