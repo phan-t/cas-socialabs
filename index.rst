@@ -45,7 +45,7 @@ You should have already received an email titled **Invitation to VMware Cloud Se
 Login to the `VMware Cloud Services Portal. <https://console.cloud.vmware.com>`__
 
 Modules
-===========
+=======
 
 As part of every module, there could be a challenge to complete. These are optional however we encourage everyone to have to a go. More information available on the `challenges <https://cas-socialabs.vmwapj.com/challenge/>`__ page.
 
