@@ -31,7 +31,7 @@ Projects control who has access to Cloud Assembly blueprints and where the bluep
 
 Cloud administrators set up the projects, to which they can add users and cloud zones. Anyone who creates and deploys blueprints must be a member of at least one project.
 
-.. note:: Projects have been pre-created as part of the lab's automated process. However we will create a new one and assign ourselves to it for provisioning.
+.. note:: Projects have been pre-created as part of the lab's automated process. However we'll create a new one and assign ourselves to it for provisioning.
 
 1.  Click on the **Projects** item from the left menu
 2.  Click on the **New Project** button
