@@ -24,21 +24,15 @@ Agnostic constructs are the means by which we map the specific details of an ima
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
 
-Cloud Zone Review
-===================
-
-Cloud Zones have been pre-created as part of the lab's automated process. Let's go have a look at them.
-
-1.  Click on the **Cloud Assembly** tile
-2.  Click on the **Infrastructure** tab from the top horizontal menu
-3.  Click on the **Cloud Zones** item from the left menu
-4.  Click on the **AWS SPC** Cloud Zone and review its configuration, taking note of the *Placement Policy*, *Capabilities Tags*, and *Compute*
-5.  Click **Cancel** when review is complete
 
 Project Creation
 ================
 
-Projects have been pre-created as part of the lab's automated process. However we will create a new one and assign ourselves to it for provisioning.
+Projects control who has access to Cloud Assembly blueprints and where the blueprints are deployed. You use projects to organize and govern what your users can do and to what cloud zones they can deploy blueprints in your cloud infrastructure.
+
+Cloud administrators set up the projects, to which they can add users and cloud zones. Anyone who creates and deploys blueprints must be a member of at least one project.
+
+.. note:: Projects have been pre-created as part of the lab's automated process. However we will create a new one and assign ourselves to it for provisioning.
 
 1.  Click on the **Projects** item from the left menu
 2.  Click on the **New Project** button
@@ -51,8 +45,22 @@ Projects have been pre-created as part of the lab's automated process. However w
 9.  Repeat to add *Azure*
 9.  After adding *Azure*, click on the **Create** button down below
 
-Flavor Mapping Creation
-=======================
+Creating Agnostic Constructs
+----------------------------
+
+Cloud Zones
+-----------------
+
+Cloud Zones have been pre-created as part of the lab's automated process. Let's go have a look at them.
+
+1.  Click on the **Cloud Assembly** tile
+2.  Click on the **Infrastructure** tab from the top horizontal menu
+3.  Click on the **Cloud Zones** item from the left menu
+4.  Click on the **AWS SPC** Cloud Zone and review its configuration, taking note of the *Placement Policy*, *Capabilities Tags*, and *Compute*
+5.  Click **Cancel** when review is complete
+
+Flavor Mappings
+---------------
 
 1.  Click on the **Flavor Mappings** item from the left menu
 2.  Click on the **New Flavor Mapping** button
@@ -61,8 +69,8 @@ Flavor Mapping Creation
 5.  Repeat to add *Azure* using *Standard_A1*
 6.  After adding *Azure*, click on the **Create** button down below
 
-Image Mapping Creation
-======================
+Image Mappings
+--------------
 
 1.  Click on the **Image Mappings** item from the left menu
 2.  Click on the **New Image Mapping** button
@@ -71,8 +79,8 @@ Image Mapping Creation
 5.  Repeat to add *Azure* using **Canonical:UbuntuServer:16.04-LTS:latest**
 6.  After adding *Azure*, click on the **Create** button down below
 
-Network Profile Creation
-========================
+Network Profiles
+----------------
 
 1.  Click on the **Network Profiles** item from the left menu
 2.  Click on the **New Network Profile** button
@@ -83,8 +91,8 @@ Network Profile Creation
 7.  Click on the **Create** button down below
 8.  Repeat to add *Azure* using *vNET27W-Public-SPC*
 
-Further Reading
-===============
+Further Readings
+================
 1.  `Adding cloud zones that define placement regions or data centers <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-87FF38A3-CEAD-4B15-BC85-07568EA4CF1C.html>`__
 2.  `Adding and managing projects <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-082C0945-4A69-4847-9EA3-D11A332FA6D2.html>`__
 3.  `Adding flavor mappings to create common machine sizes <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-C8DEE9D3-A55A-4720-B123-C2640C74CB5E.html>`__
