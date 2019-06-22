@@ -47,11 +47,19 @@ Projects have been pre-created as part of the lab's automated process. However w
 5.  Click on the **Add Users** button add your email address and click on the **Add** button
 6.  Click on the **Provisioning** tab
 7.  Click on the **Add Cloud Zone** button
-8.  For **Cloud Zone** select *AWS SPC* and click the **Add** button, repeat to add *Azure*
+8.  For **Cloud Zone** select *AWS SPC* and click the **Add** button
+9.  Repeat to add *Azure*
 9.  After adding *Azure*, click on the **Create** button down below
 
 Image Mapping Creation
 ======================
+
+1.  Click on the **Image Mappings** item from the left menu
+2.  Click on the **New Image Mapping** button
+3.  For **Image Name** type *Ubuntu*
+4.  For **Account/Region** select *AWS SPC*, **Image** select **ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20190204.3**
+5.  Repeat to add *Azure* using **Canonical:UbuntuServer:16.04-LTS:latest**
+6.  After adding *Azure*, click on the **Create** button down below
 
 Flavor Mapping Creation
 =======================
