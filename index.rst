@@ -34,7 +34,9 @@ Getting Started
 
 Login to the `VMware Cloud Services Portal. <https://console.cloud.vmware.com>`__
 
-As part of the modules you will be asked to complete challenges. These are optional however it is suggested you attempt to complete these, we may give out a prize for the person who successfully completes the most. More information available on the `challenges <https://cas-socialabs.vmwapj.com/challenge/>`__ page.
+As part of every module, there could be a challenge to complete. These are optional however we encourage everyone to have to a go. More information available on the `challenges <https://cas-socialabs.vmwapj.com/challenge/>`__ page.
+
+Before each module, the instructor will discuss and demonstrate the topic. Whilst we like enthusiasm we recommend everyone pauses at the completion of each module until the instructor starts that particular topic. 
 
 
 +----------+---------------------------------------------------+---------------------------+

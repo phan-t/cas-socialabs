@@ -29,7 +29,7 @@ Accessing Cloud Automation Services
 
 You should have already received an email titled **Invitation to VMware Cloud Services** granting temporary access to Cloud Assembly, Service Broker, and Code Steam. We used the email address submitted during event registration, if you haven't received this please notify an instructor.
 
-.. note:: If you already have access to VMware Cloud Services, skip this step and proceed to login with your credentials and change to the Organisation *SPC-TMMxx*
+.. note:: If you already have access to VMware Cloud Services, skip this step and proceed to login with your credentials and change the Organisation to *SPC-TMMxx*
 
 1.  Click on **Join VMware Cloud Services** link provided, you'll be directed to create a new account
 2.  Complete the required fields, agree to the terms and conditions and click *Sign Up*
@@ -37,8 +37,31 @@ You should have already received an email titled **Invitation to VMware Cloud Se
 4.  Enter a secure password that meets our requirements and click **Set Password**
 5.  You should be now directed to the main landing page with Cloud Assembly, Service Broker, and Code Steam tiles. If not, you can always access the services from the `VMware Cloud Services Console <https://console.cloud.vmware.com>`__
 
-Cloud Zone Creation
+Cloud Zone Review
 ===================
+
+Cloud Zones have been pre-created as part of the lab's automated process. Let's go have a look at them.
+
+1.  Click on the **Cloud Assembly** tile
+2.  Click on the **Infrastructure** tab from the top horizontal menu
+3.  Click on the **Cloud Zones** item from the left menu
+4.  Click on the **AWS SPC** Cloud Zone and review its configuration, taking note of the *Placement Policy*, *Capabilities Tags*, and *Compute*
+5.  Click **Cancel** when review is complete
+
+Project Creation
+================
+
+Projects have been pre-created as part of the lab's automated process. However we will create a new one and assign ourselves to it for provisioning.
+
+1.  Click on the **Projects** item from the left menu
+2.  Click on the **New Project** button
+3.  For **Name** type *SociaLab*
+4.  Click on the **Users** tab
+5.  Click on the **Add Users** button add your email address and click on the **Add** button
+6.  Click on the **Provisioning** tab
+7.  Click on the **Add Cloud Zone** button
+8.  For **Cloud Zone** select *AWS SPC* and click the **Add** button, repeat to add *Azure*
+9.  After adding *Azure*, click on the **Create** button down below
 
 Image Mapping Creation
 ======================
@@ -51,25 +74,6 @@ Network Profile Creation
 
 Storage Profile Creation
 ========================
-
-
-Project Creation
-================
-
-
-Step 01. Initial Configuration
-------------------------------
-From the Infrastructure tab, locate the Projects menu item, and create a new Project called "socialabs".
-
-
-Step 02. Add Users
-------------------
-
-Step 03. Add Cloud Zones
-------------------------
-
-Step 04. Configure a Custom Property
-------------------------------------
 
 Further Reading
 ===============
