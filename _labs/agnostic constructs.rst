@@ -23,6 +23,7 @@ Agnostic constructs are the means by which we map the specific details of an ima
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
 
+To begin, click on the Infrastructure tab to get started.
 
 Project Creation
 ================

@@ -1,4 +1,4 @@
-Lab 05. Bootstrapping Guest Configuration with Cloud-init
+Lab 05. Bootstrapping Guest Configuration with cloud-init
 ***********************************
 
 **What is cloud-init?** Cloud-init rovides boot time customization for cloud and virtualization instances. The service runs early during boot, retrieves user data from an external provider and performs actions.
@@ -9,9 +9,9 @@ Lab 05. Bootstrapping Guest Configuration with Cloud-init
 
 Adding Cloud-init configuration to the blueprint YAML
 ==================
-Before we get started with CloudInit, it is important to understand where CloudInit fits into the provisioning ecosystem. 
-While it is possible to run CloudInit as a stand-alone provisioning system, it is far more common to use it in conjunction with another provisioning system, like Ansible, Chef, Puppet or Salt. 
-In that case, you would simply use CloudInit to bring your new server to a state where the provisioning system can take over. 
+Before we get started with CloudInit, it is important to understand where CloudInit fits into the provisioning ecosystem.
+While it is possible to run CloudInit as a stand-alone provisioning system, it is far more common to use it in conjunction with another provisioning system, like Ansible, Chef, Puppet or Salt.
+In that case, you would simply use CloudInit to bring your new server to a state where the provisioning system can take over.
 
 You will need to now make clone the **Basic IaaS with Inputs** to **Basic IaaS with cloud-init** and begin to make some changes.
 
@@ -35,7 +35,7 @@ You are now ready to add the Cloud-init payload.
         oneOf:
           - title: Small
             const: 'small'
-          - title: Medium 
+          - title: Medium
             const: 'medium'
         default: Small
     resources:
@@ -76,7 +76,7 @@ Keep Exploring
 ==============
 
 - Check out the cloud-init documentation. Here you can explore and try out some of the functions it pfovides such as setting a **hostname**, adding new **users** and much much more!
-Congratulations! You have completed this module! 
+Congratulations! You have completed this module!
 Feel free to play with your successful deployments or hang tight for the next demonstration.
 
 Lab 05. Conclusion
@@ -88,4 +88,3 @@ Documentation Links
 ===================
 
 1. `cloud-init docs <https://cloudinit.readthedocs.io/en/latest/>`__
-
