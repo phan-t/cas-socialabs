@@ -15,6 +15,7 @@ Welcome to the Cloud Automation SociaLabs!
 
    _labs/agnostic constructs
    _labs/cloud agnostic bp
+   _labs/versioning control
    _labs/working with inputs
    _labs/bootstrapping cloud init
 
