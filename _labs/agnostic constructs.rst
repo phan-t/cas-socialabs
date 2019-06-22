@@ -63,7 +63,7 @@ Flavor Mappings
 
 1.  Click on the **Flavor Mappings** item from the left menu
 2.  Click on the **New Flavor Mapping** button
-3.  For **Flavor Name** type *Medium*
+3.  For **Flavor Name** type *medium*
 4.  For **Account/Region** select *AWS SPC* and **Value** select *t2.medium*
 5.  Repeat to add *Azure* using *Standard_A1*
 6.  After adding *Azure*, click on the **Create** button down below
@@ -73,7 +73,7 @@ Image Mappings
 
 1.  Click on the **Image Mappings** item from the left menu
 2.  Click on the **New Image Mapping** button
-3.  For **Image Name** type *Ubuntu*
+3.  For **Image Name** type *ubuntu*
 4.  For **Account/Region** select *AWS SPC* and **Image** select *ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20190204.3*
 5.  Repeat to add *Azure* using *Canonical:UbuntuServer:16.04-LTS:latest*
 6.  After adding *Azure*, click on the **Create** button down below
@@ -84,7 +84,7 @@ Network Profiles
 1.  Click on the **Network Profiles** item from the left menu
 2.  Click on the **New Network Profile** button
 3.  For **Account/Region** select *AWS SPC*
-4.  For **Name** type *AWS-Public*
+4.  For **Name** type *aws-public*
 5.  Click on the **Networks** tab
 6.  Click on the **Add Network** button, select *appnet-public-dev* and click on the **Add** button
 7.  Click on the **Create** button down below
