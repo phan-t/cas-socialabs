@@ -40,7 +40,7 @@ You should have already received an email titled **Invitation to VMware Cloud Se
 1.  Click on **Join VMware Cloud Services** link provided, you'll be directed to create a new account
 2.  Complete the required fields, agree to the terms and conditions and click *Sign Up*
 3.  In a few minutes, you'll receive an email to complete you registration.
-4.  Once you received that email, click on **Set Password** link provided
+4.  Once you received that email, click on the **Set Password** link provided
 5.  Enter a secure password that meets our requirements and click **Set Password**
 6.  You should be now directed to the main landing page with Cloud Assembly, Service Broker, and Code Steam tiles.
 
@@ -68,8 +68,6 @@ Before each module, the instructor will discuss and demonstrate the topic. Whils
 | 5        | Bootstrapping Guest Configuration with cloud-init | 15 minutes                |
 +----------+---------------------------------------------------+---------------------------+
 | 6        | Integrating with Configuration Management         | 30 minutes                |
-+----------+---------------------------------------------------+---------------------------+
-| 7        | Interacting with Third-Party Systems              | 30 minutes                |
 +----------+---------------------------------------------------+---------------------------+
 
 

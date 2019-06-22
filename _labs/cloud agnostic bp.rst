@@ -10,7 +10,7 @@ Blueprint Creation
 ==================
 Cloud Assembly provides both a visual canvas and a YAML editor to interact with. To begin, you'll use the canvas. Click on the Blueprints tab to get started.
 
-Create a new blueprint. Call it **Basic IaaS**, and add it to the **SociaLab** project.
+Create a new blueprint. Call it **Basic IaaS**, and add it to the **socialabs** project.
 
 Create Cloud Agnostic Machine
 -----------------------------
@@ -82,7 +82,7 @@ Conclusion
 
 In this lab we explored how to create an agnostic blueprint and use constraints to influence the placement decisions.
 
-Congratulations! You have completed Module 1. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
+Congratulations! You have completed Lab 2. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
 
 Further Readings
 ================
