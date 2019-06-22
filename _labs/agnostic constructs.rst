@@ -24,19 +24,6 @@ Agnostic constructs are the means by which we map the specific details of an ima
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
 
-Accessing Cloud Automation Services
-======================================
-
-You should have already received an email titled **Invitation to VMware Cloud Services** granting temporary access to Cloud Assembly, Service Broker, and Code Steam. We used the email address submitted during event registration, if you haven't received this please notify an instructor.
-
-.. note:: If you already have access to VMware Cloud Services, skip this step and proceed to login with your credentials and change the Organisation to *SPC-TMMxx*
-
-1.  Click on **Join VMware Cloud Services** link provided, you'll be directed to create a new account
-2.  Complete the required fields, agree to the terms and conditions and click *Sign Up*
-3.  In a few minutes, you'll receive an email to complete you registration. Once you received that email, click on **Set Password** link provided
-4.  Enter a secure password that meets our requirements and click **Set Password**
-5.  You should be now directed to the main landing page with Cloud Assembly, Service Broker, and Code Steam tiles. If not, you can always access the services from the `VMware Cloud Services Console <https://console.cloud.vmware.com>`__
-
 Cloud Zone Review
 ===================
 
