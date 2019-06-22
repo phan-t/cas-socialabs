@@ -1,2 +1,2 @@
-Lab 04. Leveraging Version Control
+Lab 03. Leveraging Version Control
 **********************************
