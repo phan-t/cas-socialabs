@@ -48,7 +48,7 @@ Creating Agnostic Constructs
 ============================
 
 Cloud Zones
------------------
+-----------
 
 Cloud Zones have been pre-created as part of the lab's automated process. Let's go have a look at them.
 
