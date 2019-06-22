@@ -44,8 +44,8 @@ Cloud administrators set up the projects, to which they can add users and cloud 
 9.  Repeat to add *Azure*
 9.  After adding *Azure*, click on the **Create** button down below
 
-Creating Agnostic Constructs
-============================
+Configure Agnostic Constructs
+=============================
 
 Cloud Zones
 -----------
