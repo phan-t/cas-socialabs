@@ -74,8 +74,8 @@ Image Mappings
 1.  Click on the **Image Mappings** item from the left menu
 2.  Click on the **New Image Mapping** button
 3.  For **Image Name** type *Ubuntu*
-4.  For **Account/Region** select *AWS SPC* and **Image** select **ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20190204.3**
-5.  Repeat to add *Azure* using **Canonical:UbuntuServer:16.04-LTS:latest**
+4.  For **Account/Region** select *AWS SPC* and **Image** select *ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20190204.3*
+5.  Repeat to add *Azure* using *Canonical:UbuntuServer:16.04-LTS:latest*
 6.  After adding *Azure*, click on the **Create** button down below
 
 Network Profiles
