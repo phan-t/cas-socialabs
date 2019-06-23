@@ -104,7 +104,7 @@ macOS
 Windows
 -------
 
-1.  Download the private key in Putty format :download:`/_downloads/socialab_id.rsa.ppk`
+1.  Download the private key in Putty format :download:`socialab_id.rsa.ppk <../socialab_id.rsa.ppk>`
 2.  Open Putty and for **Host Name (or IP address)** enter *your_deployed_machine_fqdn_or_ip*
 3.  Click on the **Data** item from the left menu
 4.  For **Auto-login username** type *ubuntu*
@@ -112,6 +112,7 @@ Windows
 6.  For **Private key file for authentication** select the downloaded file *socialab_id.rsa.ppk*
 7.  Click on the **Open** button
 
+:download:`/path/to/file`
 
 Challenge
 =========
