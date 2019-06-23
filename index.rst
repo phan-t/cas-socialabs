@@ -44,7 +44,7 @@ You should have already received an email titled **Invitation to VMware Cloud Se
 5.  Enter a secure password that meets our requirements and click **Set Password**
 6.  You should be now directed to the main landing page with Cloud Assembly, Service Broker, and Code Steam tiles.
 
-Login to the `VMware Cloud Services Portal. <https://console.cloud.vmware.com>`__
+Login to the `VMware Cloud Services Portal <https://console.cloud.vmware.com>`__
 
 Modules
 =======

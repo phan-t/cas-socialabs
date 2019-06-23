@@ -33,8 +33,8 @@ What do you see when you click on ``properties``? Can you tell what data type it
 
 What are the single quotes after ``image``? Click on ``image`` to determine what type is it.
 
-1.  Modify the YAML so that the blueprint uses the **ubuntu** image and the **medium** flavor.
-2.  At the end of the YAML block, under ``flavor`` start a new line (correctly indented) and begin typing **constraints**.
+1.  Modify the YAML so that the blueprint uses the **ubuntu** image and the **medium** flavor
+2.  At the end of the YAML block, under ``flavor`` start a new line (correctly indented) and begin typing ``constraints``
 
 .. note:: You can type this out in its entirety or use the autocomplete.
 
@@ -84,7 +84,7 @@ In this lab we explored how to create an agnostic blueprint and use constraints 
 
 Congratulations! You have completed Lab 2. Feel free to play with your successful deployments or hang tight for the next demonstration on Leveraging Version Control.
 
-Further Readings
+Further Reading
 ================
 
 1. `Create a simple blueprint <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1EE72CCE-A871-4E63-88E5-30C12246BBBF.html>`__

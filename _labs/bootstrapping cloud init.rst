@@ -1,26 +1,60 @@
 Lab 05. Bootstrapping Guest Configuration with cloud-init
-***********************************
+*********************************************************
 
-**What is cloud-init?** Cloud-init rovides boot time customization for cloud and virtualization instances. The service runs early during boot, retrieves user data from an external provider and performs actions.
+**What is cloud-init?** cloud-init provides boot time customization for cloud and virtualization instances. The service runs early during boot, retrieves user data from an external provider and performs various actions.
 
+Before we get started with cloud-init, it is important to understand where cloud-init fits into the provisioning ecosystem. While it's possible to run cloud-init as a stand-alone provisioning method, it's far more common to use it in conjunction with a Configuration Management platform, like Ansible, Chef, Puppet or Salt.
+
+In that case, you would simply use cloud-init to bring your new instance to a state where the Configuration Management platform  can take over.
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
 
+You'll now need clone the **Basic IaaS with Inputs** blueprint to **Basic IaaS with cloud-init** to get started.
 
-Adding Cloud-init configuration to the blueprint YAML
-==================
-Before we get started with CloudInit, it is important to understand where CloudInit fits into the provisioning ecosystem.
-While it is possible to run CloudInit as a stand-alone provisioning system, it is far more common to use it in conjunction with another provisioning system, like Ansible, Chef, Puppet or Salt.
-In that case, you would simply use CloudInit to bring your new server to a state where the provisioning system can take over.
+cloud-init Configuration
+========================
 
-You will need to now make clone the **Basic IaaS with Inputs** to **Basic IaaS with cloud-init** and begin to make some changes.
+.. code-block:: yaml
 
-Step 01. Add a cloudConfig section to the yaml.
--------------------------------------
-To begin adding Cloud-init configuration, locate ``- tag: '${input.tshirtsize}'`` and hit 'Enter' to return a new line. The YAML will intent automatically however you will need to backspace about three times to make sure the intent is vertically the same as `constraints`
-Type ``cloudConfig: |`` and hit 'Enter' to return a new line. Note: 'cloudConfig' represents 'Cloud-init' in Cloud Assembly
-Hit 'tab' to intent once and type ``#cloud-config`` to add a comment the following code represents 'Cloud-init'
-You are now ready to add the Cloud-init payload.
+    cloudConfig: |
+      #cloud-config
+      repo_update: true #updates the locally cached package listing from repository
+      repo_upgrade: all #updates critical and important security updates
+      package_update: true
+      package_upgrade: all
+
+      users:
+        - name: socialab #username to be created
+          ssh-authorized-keys:
+          - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZ6c7SN6L7DuHO34SUpJAsisy9PJ1TkhiHCuJt3VzKOF0kZPrvDdV7pwU14pFR4jOopcH9Ukajc/BSGiuXuuh4wISKu/p22fH7uzThHav15YCONsgH3FNXCB3UIxkMU+RUOABMrplakoAHrNc2RDaEspwmyGbns6WI6RlNcILr//U6TdXKoht4k6x5S5FKe7GiDBXMePQwfknqWAroVZQiRSCXe0kYAz+Gh518U9IX0BeV5tjxL05QGp7HMCnggTCLA/bGc6rjK97Ujcjcs7MJU8LX0zEYxQeI/uCQzhKFvR3c1MKefjndxYNk6qSOTHyO1uj4/K0SHF62on2dpjZf
+          sudo: ['ALL=(ALL) NOPASSWD:ALL']
+          groups: sudo #groups user to be added too
+          shell: /bin/bash
+
+The above example creates the user *socialab* and adds it to the *sudoers* group but more importantly injects the public SSH key to allow a more secure login than using traditional username and passwords.
+
+Examples for cloud-init configuration can be found `here <https://cloudinit.readthedocs.io/en/latest/topics/examples.html>`__
+
+.. note:: Cloud Assembly represents cloud-init as cloudConfig. cloudConfig adheres to the same payload and therefore examples found online can be utilized.
+
+Add cloudConfig to Blueprint
+----------------------------
+
+1.  At the end of the YAML block, most likely under ``- tag:`` start a new line (correctly indented) and begin typing ``cloudConfig: |``. Make sure ``cloudConfig`` is vertically aligned with ``constraints``
+
+.. code-block:: yaml
+   :linenos:
+   :emphasize-lines: 1,3
+
+    constraints:
+      - tag: ''
+    cloudConfig: |
+
+2.  Add the comment ``#cloud-config``, this is good practice
+3.  Add the *socialab* user using the above example
+
+Sample YAML
+-----------
 
 .. code:: yaml
 
@@ -47,44 +81,35 @@ You are now ready to add the Cloud-init payload.
         - tag: 'platform:aws'
       #TODO Add cloud-init configuration
 
+Deploy Blueprint
+----------------
 
-Modify the YAML so that **apache2** is installed to the OS when the blueprint is deployed.
-
-
-Deploying the Blueprint
------------------------
-
-1. Deploy your blueprint, providing a name for the deployment.
-2. After a few minutes the deployment should be complete. Click on the deployment name to view the public IP address of the deployment.
-
-Do you see an apache landing page?
+1.  Click on the **Deploy** button down below
+2.  For **Deployment Name** type *basic aws*
+3.  For **Deployment Inputs** type *medium*
+4.  Click on the **Deploy** button
+5.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
 
 
 Challenge
-==============
-Refer to the `cloud-init docs <https://cloudinit.readthedocs.io/en/latest/>`__
-1. Without using runcmd, create a file with "Hello world" as content, and 0644 as the permission set.
+=========
 
-2. Ensure that when you deploy any VM from your blueprint that it is integrated into the Wavefront monitoring solution. You will require the following command.
-``bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878``
+1. Using cloud-init **packages** module, install *Apache*. Refer to cloud-init `Package Update Upgrade Install <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#package-update-upgrade-install>`__
+
+.. Hint:: With later distributions of Linux, Apache** or HTTPD has been updated to Apache2
+
+2. Using cloud-init **runcmd** module, install the *Wavefront Agent*. Refer to cloud-init `Runcmd <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#runcmd>`__
+
+.. Hint:: bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878
 
 
-Troubleshooting Provisioning Issues
-===================================
+Conclusion
+==========
+In this lab we explored cloud-init configuration.
 
-Keep Exploring
-==============
+If you completed the Challenge, ask the instructor to bring up your host metrics.
 
-- Check out the cloud-init documentation. Here you can explore and try out some of the functions it pfovides such as setting a **hostname**, adding new **users** and much much more!
-Congratulations! You have completed this module!
-Feel free to play with your successful deployments or hang tight for the next demonstration.
+Further Reading
+===============
 
-Lab 05. Conclusion
-------------------
-In this lab we further explored the yaml syntax and added cloud-init configuration to install apache to the host at the time of provisioning.
-If you completed the lab, ask the instructor to go to https://surf.wavefront.com/ to see if your machine is in the dashboard. Talk about closing the loop on IaaS and PaaS!
-
-Documentation Links
-===================
-
-1. `cloud-init docs <https://cloudinit.readthedocs.io/en/latest/>`__
+1. `cloud-init <https://cloudinit.readthedocs.io/en/latest/>`__

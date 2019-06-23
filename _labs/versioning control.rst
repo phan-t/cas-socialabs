@@ -48,6 +48,6 @@ In this lab we explored how to integrate with GitHub.
 
 Congratulations! You have completed Lab 3. Feel free to deploy the synchronised blueprints or hang tight for the next demonstration on Working with Inputs and Service Broker.
 
-Further Readings
+Further Reading
 ================
 1.  `How do I use GitLab integration <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1847AC57-157A-4319-B425-A1A4731C9DDA.html>`__

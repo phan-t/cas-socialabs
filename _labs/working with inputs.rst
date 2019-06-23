@@ -31,6 +31,11 @@ Use Blueprint Inputs
 --------------------
 Similar to coding or scripting we use inputs like variables.
 
+1.  Replace the value ``medium`` in the YAML with `${input.tshirtsize}`
+
+Sample YAML
+-----------
+
 .. code-block:: yaml
    :linenos:
    :emphasize-lines: 13
@@ -50,8 +55,6 @@ Similar to coding or scripting we use inputs like variables.
       flavor: #TODO configure the blueprint to use the input
       constraints:
         - tag: 'platform:aws'
-
-1.  Replace the value ``medium`` in the YAML with `${input.tshirtsize}`
 
 Deploy Blueprint
 ----------------
@@ -76,7 +79,7 @@ To assist with the above challenges refer to `How user input can customized <htt
 Conclusion
 ==========
 
-In this lab we took a look at how we can utilise inputs to provide simpler ways to consume blueprints as users typically you wouldn't expect majority of users to understand the exact inputs required.
+In this lab we took a look at how we can utilize inputs to provide simpler ways to consume blueprints as users typically you wouldn't expect majority of users to understand the exact inputs required.
 
 
 Further Reading
