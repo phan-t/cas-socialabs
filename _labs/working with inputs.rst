@@ -1,27 +1,37 @@
 Lab 04. Working with Inputs
 ***************************
 
-In this lab we will learn how we can provide the consumer of Cloud Assembly and Service broker later on on the training with options at the time of deployment.
-These options are actually variables that can be utilised a numeber of ways.
-In this lab you will learn how to implement input variables that will make decisions such as clodu placement or operating system selection.
+There are advanced Cloud Assembly blueprint code possibilities that can take a simple blueprint to the next level, we'll explore them in this lab.
 
 .. note:: Whenever you see #TODO in a code sample, you need to replace the line with the appropriate syntax. Refer to the linked documents if you need assistance.
 
 
-Inputs
-==================
-Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types - strings, integers, numbers, boolean, and objects. In this post, we will take a look how you can use them.
-You will need to now make clone the **Basic IaaS** blueprint to **Basic IaaS with Inputs** and begin to make some changes.
+Blueprint Inputs
+================
+You use input parameters so that users can make custom selections at request time. Inputs are a mechanism for assigning variables to blueprint components at request time. Inputs support a number of different data types such as strings, integers, numbers, boolean, and objects.
 
-Step 01. Creating and Using Inputs as Variables
--------------------------------------
-1.  If you haven't already or the session has timed out, log into Cloud Assembly via <https://console.cloud.vmware.com> and select the "Cloud Assembly" tile
-2.  Clone the 'Basic IaaS' blueprint to a new blueprint named "Basic IaaS with Inputs" and remember select the project **Trading**
-3.  To being adding inputs, locate ``inputs: {}`` and remove the curly brackets ``{}``
-4.  Hit 'Enter' after removing the curly brackets, e.g. at `inputs:` to return a new line. The YAML will intent automatically
-5.  Enter the input name ``tshirtsize:`` and hit 'Enter' again
-6.  Enter the input type ``type: string``
-7.  Replace the value ``small`` in the YAML with `${input.tshirtsize}`
+You'll now need clone the **Basic IaaS** blueprint to **Basic IaaS with Inputs** to get started.
+
+Create Blueprint Inputs
+-----------------------
+You may have noticed ``inputs: {}`` in the YAML previously, this is where we add blueprint inputs.
+
+.. code-block:: yaml
+   :linenos:
+   :emphasize-lines: 2
+
+    formatVersion: 1
+    inputs: {}
+
+1.  Remove the curly brackets from ``inputs: {}``, start a new line and notice how it auto intents
+2.  Enter the input name ``tshirtsize:`` and hit 'Enter' again
+3.  Enter the input type ``type: string``
+
+Using Blueprint Inputs
+----------------------
+
+
+4.  Replace the value ``medium`` in the YAML with `${input.tshirtsize}`
 
 .. code-block:: yaml
    :linenos:
@@ -169,7 +179,7 @@ Solution
         oneOf:
           - title: Small
             const: 'small'
-          - title: Medium 
+          - title: Medium
             const: 'medium'
         default: Small
     resources:
@@ -184,4 +194,3 @@ Solution
 1. Add an input that allows the user to specify the count of nodes VMs that will be deployed, with a minimum of 1 and a maximum of 3. Remember to make sure that your Cloud Machine resource can use the input value.
 
 2. Create an input that accepts an email address, and define a regex pattern to ensure a valid email address is entered.
-

@@ -18,6 +18,7 @@ In the components panel, locate the Cloud Agnostic section and drag a Machine ob
 
 .. code-block:: yaml
    :linenos:
+   :emphasize-lines: 7,8
 
     formatVersion: 1
     inputs: {}
