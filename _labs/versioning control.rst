@@ -5,10 +5,10 @@ Cloud Assembly supports integration with Git repositories so that you can store 
 
 The following guidelines must be observed for all blueprints to be used with Git integration:
 
--   Each blueprint must reside in a separate folder.
--   All blueprints must be named blueprint.yaml.
--   All blueprint YAML files must use name and version fields.
--   Only valid blueprint are imported.
+-   Each blueprint must reside in a separate folder
+-   All blueprints must be named blueprint.yaml
+-   All blueprint YAML files must use name and version fields
+-   Only valid blueprint are imported
 -   If you update a draft blueprint imported from Git, and its content differs from that in the top version, the draft will not be updated in subsequent syncs and a new version is created. If you want to update a blueprint and also allow further sync's from Git, then you must create a new version after final changes
 
 Integrate with GitHub
