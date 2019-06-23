@@ -33,8 +33,8 @@ What do you see when you click on ``properties``? Can you tell what data type it
 
 What are the single quotes after ``image``? Click on ``image`` to determine what type is it.
 
-1.  Modify the YAML so that the blueprint uses the **ubuntu** image and the **medium** flavor.
-2.  At the end of the YAML block, under ``flavor`` start a new line (correctly indented) and begin typing **constraints**.
+1.  Modify the YAML so that the blueprint uses the **ubuntu** image and the **medium** flavor
+2.  At the end of the YAML block, under ``flavor`` start a new line (correctly indented) and begin typing **constraints**
 
 .. note:: You can type this out in its entirety or use the autocomplete.
 
