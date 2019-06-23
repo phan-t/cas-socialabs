@@ -47,7 +47,7 @@ Similar to coding or scripting we use inputs like variables.
       type: Cloud.Machine
       properties:
       image: ubuntu
-      flavor: '${input.tshirtsize}'
+      flavor: #TODO configure the blueprint to use the input
       constraints:
         - tag: 'platform:aws'
 
@@ -66,10 +66,12 @@ Challenge
 =========
 
 1.  Create a input for different platforms, e.g. *AWS* and *Azure*
-2.  Create a drop-down list for the platforms input to provide choice, refer to `How user input can customized <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html>`__
-3.  Create a friendly title for the platforms input to provide ease of use, refer to `How user input can customized <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html>`__
+2.  Create a drop-down list for the platforms input to provide choice
+3.  Create a friendly title for the platforms input to provide ease of use
 
 As alluded to, a free form text field could lead to problems when a specific syntax is required. Also, 'tshirtsize' is not all that user friendly a field name. You should probably change that. What do you think would happen if you typed 'Small' instead of 'small'?
+
+To assist with the above challenges refer to `How user input can customized <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html>`__
 
 Conclusion
 ==========
