@@ -31,6 +31,11 @@ Use Blueprint Inputs
 --------------------
 Similar to coding or scripting we use inputs like variables.
 
+1.  Replace the value ``medium`` in the YAML with `${input.tshirtsize}`
+
+Sample YAML
+-----------
+
 .. code-block:: yaml
    :linenos:
    :emphasize-lines: 13
@@ -50,8 +55,6 @@ Similar to coding or scripting we use inputs like variables.
       flavor: #TODO configure the blueprint to use the input
       constraints:
         - tag: 'platform:aws'
-
-1.  Replace the value ``medium`` in the YAML with `${input.tshirtsize}`
 
 Deploy Blueprint
 ----------------
