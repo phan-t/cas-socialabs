@@ -81,7 +81,7 @@ Sample YAML
       flavor: '${input.tshirtsize}'
       constraints:
         - tag: 'platform:aws'
-      #TODO add cloud-init configuration
+      cloudConfig: | #TODO add cloud-init configuration
 
 Deploy Blueprint
 ----------------
