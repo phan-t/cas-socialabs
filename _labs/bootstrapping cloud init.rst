@@ -98,13 +98,13 @@ Login to Deployed Machine
 macOS
 -----
 
-1.  Download the private key ::download:`here </_downloads/socialab_id.rsa.pem>`
+1.  Download the private key :download:`/_downloads/socialab_id.rsa.pem`
 2.  Open Terminal and run ``ssh -i socialab_id.rsa.pem ubuntu@your_deployed_machine_fqdn_or_ip``
 
 Windows
 -------
 
-1.  Download the private key in Putty format ::download:`here </_downloads/socialab_id.rsa.ppk>`
+1.  Download the private key in Putty format :download:`socialab_id.rsa.ppk <../socialab_id.rsa.ppk>`
 2.  Open Putty and for **Host Name (or IP address)** enter *your_deployed_machine_fqdn_or_ip*
 3.  Click on the **Data** item from the left menu
 4.  For **Auto-login username** type *ubuntu*
@@ -112,6 +112,7 @@ Windows
 6.  For **Private key file for authentication** select the downloaded file *socialab_id.rsa.ppk*
 7.  Click on the **Open** button
 
+:download:`/path/to/file`
 
 Challenge
 =========
