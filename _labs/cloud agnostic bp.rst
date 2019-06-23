@@ -84,7 +84,7 @@ In this lab we explored how to create an agnostic blueprint and use constraints 
 
 Congratulations! You have completed Lab 2. Feel free to play with your successful deployments or hang tight for the next demonstration on Leveraging Version Control.
 
-Further Readings
+Further Reading
 ================
 
 1. `Create a simple blueprint <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1EE72CCE-A871-4E63-88E5-30C12246BBBF.html>`__

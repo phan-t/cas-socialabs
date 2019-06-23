@@ -91,7 +91,7 @@ Network Profiles
 7.  Click on the **Create** button down below
 8.  Repeat to add *Azure* using *vNET27W-Public-SPC*
 
-Further Readings
+Further Reading
 ================
 1.  `Adding cloud zones that define placement regions or data centers <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-87FF38A3-CEAD-4B15-BC85-07568EA4CF1C.html>`__
 2.  `Adding and managing projects <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-082C0945-4A69-4847-9EA3-D11A332FA6D2.html>`__
