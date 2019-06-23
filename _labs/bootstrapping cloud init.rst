@@ -98,13 +98,13 @@ Login to Deployed Machine
 macOS
 -----
 
-1.  Download the private key :download:`/_downloads/socialab_id.rsa.pem`
+1.  Download the private key `socialab_id_rsa.pem <https://www.dropbox.com/s/7ys9ad3ud57xrj9/socialab_id_rsa.pem?dl=0>`__
 2.  Open Terminal and run ``ssh -i socialab_id.rsa.pem ubuntu@your_deployed_machine_fqdn_or_ip``
 
 Windows
 -------
 
-1.  Download the private key :download:`socialab_id.rsa.ppk </_static/socialab_id.rsa.ppk>`
+1.  Download the private key `socialab_id_rsa.ppk <https://www.dropbox.com/s/5ppz4xytxrnd3zt/socialab_id_rsa.ppk?dl=0>`__
 2.  Open Putty and for **Host Name (or IP address)** enter *your_deployed_machine_fqdn_or_ip*
 3.  Click on the **Data** item from the left menu
 4.  For **Auto-login username** type *ubuntu*
