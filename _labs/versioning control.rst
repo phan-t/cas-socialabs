@@ -35,7 +35,7 @@ Assign Repository to a Project
 1.  Click on the *GitHub* integration just created **SociaLabs**
 2.  Click on the **Projects** tab
 3.  Click on the **Add Projects** button
-4.  For **Name** select *SociaLabs* and click on the **Next** button
+4.  For **Name** select *socialabs* and click on the **Next** button
 5.  For **Repository** type *phan-t/cas-socialabs*
 6.  For **Branch** type *master*
 7.  For **Folder** type *blueprints*
