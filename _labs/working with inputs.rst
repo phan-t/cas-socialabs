@@ -75,6 +75,35 @@ Conclusion
 ==========
 In this lab we took a look at how we can utilise inputs to provide simpler ways to consume blueprints as users typically you wouldn't expect majority of users to understand the exact inputs required.
 
+=======
+
+1.  Click on the **Deploy** button down below
+2.  For **Deployment Name** type *basic aws*
+3.  For **Deployment Inputs** type *medium*
+4.  Click on the **Deploy** button
+5.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
+
+Challenge
+=========
+
+1.  Create a input for different platforms, e.g. *AWS* and *Azure*
+2.  Create a drop-down list for the platforms input to provide choice, refer to `How user input can customized <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html>`__
+3.  Create a friendly title for the platforms input to provide ease of use, refer to `How user input can customized <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-6BA1DA96-5C20-44BF-9C81-F8132B9B4872.html>`__
+
+As alluded to, a free form text field could lead to problems when a specific syntax is required. Also, 'tshirtsize' is not all that user friendly a field name. You should probably change that. What do you think would happen if you typed 'Small' instead of 'small'?
+
+Step 02. Deploy the Blueprint
+-----------------------------
+Once you click on the Deploy button, you will see the same prompt as before. Give your deployment a name and move to the next screen.
+Do you notice anything different?
+Enter 'small' under the tshirtsize input field, and complete the deployment.
+
+
+Conclusion
+==========
+In this lab we took a look at how we can utilise inputs to provide simpler ways to consume blueprints as users typically you wouldn't expect majority of users to understand the exact inputs required.
+
+>>>>>>> c5d7d64a65a96f623551f0be074868605c60d1c4
 Further Reading
 ===============
 
