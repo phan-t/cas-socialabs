@@ -85,7 +85,7 @@ Deploy Blueprint
 ----------------
 
 1.  Click on the **Deploy** button down below
-2.  For **Deployment Name** type *basic aws*
+2.  For **Deployment Name** type *basic cloud init*
 3.  For **Deployment Inputs** type *medium*
 4.  Click on the **Deploy** button
 5.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
@@ -107,7 +107,7 @@ Conclusion
 ==========
 In this lab we explored cloud-init configuration.
 
-If you completed the Challenge, ask the instructor to bring up your host metrics.
+If you completed the Challenge, ask the instructor to bring up your host metrics in Wavefront.
 
 Further Reading
 ===============

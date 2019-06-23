@@ -60,7 +60,7 @@ Deploy Blueprint
 ----------------
 
 1.  Click on the **Deploy** button down below
-2.  For **Deployment Name** type *basic aws*
+2.  For **Deployment Name** type *basic inputs*
 3.  For **Deployment Inputs** type *medium*
 4.  Click on the **Deploy** button
 5.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
