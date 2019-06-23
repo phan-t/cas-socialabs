@@ -1,10 +1,22 @@
 Lab 03. Leveraging Version Control
 **********************************
 
+Cloud Assembly supports integration with Git repositories so that you can store blueprints under source control and automatically download saved blueprints that are associated with designated projects. This functionality facilitates auditing and accountability of processes around deployment.
+
+The following guidelines must be observed for all blueprints to be used with Git integration:
+
+-   Each blueprint must reside in a separate folder.
+-   All blueprints must be named blueprint.yaml.
+-   All blueprint YAML files must use name and version fields.
+-   Only valid blueprint are imported.
+-   If you update a draft blueprint imported from Git, and its content differs from that in the top version, the draft will not be updated in subsequent syncs and a new version is created. If you want to update a blueprint and also allow further sync's from Git, then you must create a new version after final changes
+
 Integrate with GitHub
 =====================
 
 To begin, click on the Infrastructure tab to get started.
+
+.. note:: Blueprints have been pre-created in the GitHub repository, you do not need to create any for this lab.
 
 1.  Click on the **Integrations** item from the left menu
 2.  Click on the **Add Integrations** button
