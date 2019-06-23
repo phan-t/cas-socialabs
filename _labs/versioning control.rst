@@ -29,4 +29,9 @@ Assign Repository to a Project
 7.  For **Folder** type *blueprints*
 8.  For **Type** select *Blueprint* and click on the **Next** button
 
-You should now have successful added GitHub as an integration, if you navigate to ‘Blueprints’ you should see new Blueprints that have sync’d from GitHub
+Conclusion
+==========
+
+In this lab we explored how to integrate with GitHub.
+
+Congratulations! You have completed Lab 3. Feel free to deploy the synchronised blueprints or hang tight for the next demonstration on Working with Inputs and Service Broker.
