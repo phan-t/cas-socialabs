@@ -55,8 +55,8 @@ Sample YAML
     machine:
       type: Cloud.Machine
       properties:
-        image: #TODO configure the blueprint to use the ubuntu image.
-        flavor: #TODO configure the blueprint to use the medium flavor.
+        image: #TODO configure the blueprint to use the ubuntu image
+        flavor: #TODO configure the blueprint to use the medium flavor
       constraints:
         - tag: #TODO configure the blueprint placement decision for AWS
 
