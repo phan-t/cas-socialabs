@@ -40,7 +40,7 @@ Examples for cloud-init configuration can be found `here <https://cloudinit.read
 Add cloudConfig to Blueprint
 ----------------------------
 
-1.  At the end of the YAML block, most likely under ``- tag:`` start a new line (correctly indented) and begin typing ``cloudConfig: |``. Make sure ``cloudConfig`` is vertically aligned with ``constraints``
+1.  At the end of the YAML block, most likely under ``- tag:``, start a new line (correctly indented) and begin typing ``cloudConfig: |``. Make sure ``cloudConfig`` is vertically aligned with ``constraints``
 
 .. code-block:: yaml
    :linenos:
