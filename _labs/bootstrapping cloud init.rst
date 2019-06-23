@@ -15,6 +15,7 @@ cloud-init Configuration
 ========================
 
 .. code-block:: yaml
+   :linenos:
 
     cloudConfig: |
       #cloud-config
@@ -57,6 +58,7 @@ Sample YAML
 -----------
 
 .. code:: yaml
+   :linenos:
 
     formatVersion: 1
     version: 1.0
@@ -79,7 +81,7 @@ Sample YAML
       flavor: '${input.tshirtsize}'
       constraints:
         - tag: 'platform:aws'
-      #TODO Add cloud-init configuration
+      #TODO add cloud-init configuration
 
 Deploy Blueprint
 ----------------
@@ -89,6 +91,26 @@ Deploy Blueprint
 3.  For **Deployment Inputs** type *medium*
 4.  Click on the **Deploy** button
 5.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
+
+Login to Deployed Machine
+=========================
+
+macOS
+-----
+
+1.  Download the private key ::download:`here </_downloads/socialab_id.rsa.pem>`
+2.  Open Terminal and run ``ssh -i socialab_id.rsa.pem ubuntu@your_deployed_machine_fqdn_or_ip``
+
+Windows
+-------
+
+1.  Download the private key in Putty format ::download:`here </_downloads/socialab_id.rsa.ppk>`
+2.  Open Putty and for **Host Name (or IP address)** enter *your_deployed_machine_fqdn_or_ip*
+3.  Click on the **Data** item from the left menu
+4.  For **Auto-login username** type *ubuntu*
+5.  Click on the **Auth** item from the left menu
+6.  For **Private key file for authentication** select the downloaded file *socialab_id.rsa.ppk*
+7.  Click on the **Open** button
 
 
 Challenge
