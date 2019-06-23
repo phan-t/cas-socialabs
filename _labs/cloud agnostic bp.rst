@@ -73,9 +73,8 @@ Can you identify the external and internal IP addresses of the workload you depl
 Challenge
 =========
 
-Edit the blueprint to deploy to Azure.
-
-Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
+1.  Edit the blueprint to deploy to Azure.
+2.  Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
 
 
 Conclusion
