@@ -55,27 +55,26 @@ Sample YAML
     machine:
       type: Cloud.Machine
       properties:
-        image: #TODO configure the blueprint to use the ubuntu image.
-        flavor: #TODO configure the blueprint to use the medium flavor.
+        image: #TODO configure the blueprint to use the ubuntu image
+        flavor: #TODO configure the blueprint to use the medium flavor
       constraints:
         - tag: #TODO configure the blueprint placement decision for AWS
 
-Deploy blueprint
+Deploy Blueprint
 ----------------
 
 1.  Click on the **Deploy** button down below
 2.  For **Deployment Name** type *basic aws*
 3.  Click on the **Deploy** button
-4.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components.
+4.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
 
 Can you identify the external and internal IP addresses of the workload you deployed?
 
 Challenge
 =========
 
-Edit the blueprint to deploy to Azure.
-
-Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
+1.  Edit the blueprint to deploy to Azure.
+2.  Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
 
 
 Conclusion
