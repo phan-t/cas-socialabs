@@ -46,9 +46,9 @@ What are the single quotes after ``image``? Click on ``image`` to determine what
 Sample YAML
 -----------
 
-.. code:: yaml
+.. code-block:: yaml
    :linenos:
-     
+
     version: 1.0
     name: Basic IaaS
     formatVersion: 1

@@ -57,7 +57,7 @@ Add cloudConfig to Blueprint
 Sample YAML
 -----------
 
-.. code:: yaml
+.. code-block:: yaml
    :linenos:
 
     formatVersion: 1
@@ -81,7 +81,7 @@ Sample YAML
       flavor: '${input.tshirtsize}'
       constraints:
         - tag: 'platform:aws'
-      cloudConfig: | #TODO add cloud-init configuration
+      #TODO add cloud-init configuration
 
 Deploy Blueprint
 ----------------
