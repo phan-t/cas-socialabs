@@ -18,6 +18,7 @@ In the components panel, locate the Cloud Agnostic section and drag a Machine ob
 
 .. code-block:: yaml
    :linenos:
+   :emphasize-lines: 7,8
 
     formatVersion: 1
     inputs: {}
@@ -54,27 +55,26 @@ Sample YAML
     machine:
       type: Cloud.Machine
       properties:
-        image: #TODO configure the blueprint to use the ubuntu image.
-        flavor: #TODO configure the blueprint to use the medium flavor.
+        image: #TODO configure the blueprint to use the ubuntu image
+        flavor: #TODO configure the blueprint to use the medium flavor
       constraints:
         - tag: #TODO configure the blueprint placement decision for AWS
 
-Deploy blueprint
+Deploy Blueprint
 ----------------
 
 1.  Click on the **Deploy** button down below
 2.  For **Deployment Name** type *basic aws*
 3.  Click on the **Deploy** button
-4.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components.
+4.  After a few minutes the deployment should be complete, click on the deployment name to view more details about the components
 
 Can you identify the external and internal IP addresses of the workload you deployed?
 
 Challenge
 =========
 
-Edit the blueprint to deploy to Azure.
-
-Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
+1.  Edit the blueprint to deploy to Azure.
+2.  Apply a different capability tag to each of your AWS availability zones, and then use a matching constraint to control where they land. Availability zones can be found within the Cloud Zone.
 
 
 Conclusion
@@ -82,7 +82,7 @@ Conclusion
 
 In this lab we explored how to create an agnostic blueprint and use constraints to influence the placement decisions.
 
-Congratulations! You have completed Lab 2. Feel free to play with your successful deployments or hang tight for the next demonstration on Working with Inputs and Service Broker.
+Congratulations! You have completed Lab 2. Feel free to play with your successful deployments or hang tight for the next demonstration on Leveraging Version Control.
 
 Further Readings
 ================
