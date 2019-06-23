@@ -76,7 +76,7 @@ To assist with the above challenges refer to `How user input can customized <htt
 Conclusion
 ==========
 
-In this lab we took a look at how we can utilise inputs to provide simpler ways to consume blueprints as users typically you wouldn't expect majority of users to understand the exact inputs required.
+In this lab we took a look at how we can utilize inputs to provide simpler ways to consume blueprints as users typically you wouldn't expect majority of users to understand the exact inputs required.
 
 
 Further Reading
