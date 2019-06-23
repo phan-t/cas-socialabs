@@ -105,7 +105,7 @@ Windows
 -------
 
 1.  Download the private key `socialab_id_rsa.ppk <https://www.dropbox.com/s/5ppz4xytxrnd3zt/socialab_id_rsa.ppk?dl=0>`__
-2.  Open Putty and for **Host Name (or IP address)** enter *your_deployed_machine_fqdn_or_ip*
+2.  Open PuTTY and for **Host Name (or IP address)** enter *your_deployed_machine_fqdn_or_ip*
 3.  Click on the **Data** item from the left menu
 4.  For **Auto-login username** type *ubuntu*
 5.  Click on the **Auth** item from the left menu
@@ -120,9 +120,9 @@ Challenge
 
 .. Hint:: With later distributions of Linux, Apache** or HTTPD has been updated to Apache2
 
-2. Using cloud-init **runcmd** module, install the *Wavefront Agent*. Refer to cloud-init `Runcmd <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#runcmd>`__
+2. Using cloud-init **runcmd** module, install the *Wavefront Telegraf Agent*. Refer to cloud-init `Runcmd <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#runcmd>`__
 
-.. Hint:: bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878
+.. Hint:: bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878 --agent-tags="cas-socialabs"
 
 
 Conclusion
@@ -134,4 +134,6 @@ If you completed the Challenge, ask the instructor to bring up your host metrics
 Further Reading
 ===============
 
-1. `cloud-init <https://cloudinit.readthedocs.io/en/latest/>`__
+1.  `cloud-init <https://cloudinit.readthedocs.io/en/latest/>`__
+2.  `Connect to your Linux instance from Windows using PuTTY <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html>`__
+3.  `Learn about the Wavefront Linux Host integration <https://docs.wavefront.com/linux.html>`__
