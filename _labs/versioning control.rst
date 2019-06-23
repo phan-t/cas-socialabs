@@ -1,10 +1,22 @@
 Lab 03. Leveraging Version Control
 **********************************
 
+Cloud Assembly supports integration with Git repositories so that you can store blueprints under source control and automatically download saved blueprints that are associated with designated projects. This functionality facilitates auditing and accountability of processes around deployment.
+
+The following guidelines must be observed for all blueprints to be used with Git integration:
+
+-   Each blueprint must reside in a separate folder.
+-   All blueprints must be named blueprint.yaml.
+-   All blueprint YAML files must use name and version fields.
+-   Only valid blueprint are imported.
+-   If you update a draft blueprint imported from Git, and its content differs from that in the top version, the draft will not be updated in subsequent syncs and a new version is created. If you want to update a blueprint and also allow further sync's from Git, then you must create a new version after final changes
+
 Integrate with GitHub
 =====================
 
 To begin, click on the Infrastructure tab to get started.
+
+.. note:: Blueprints have been pre-created in the GitHub repository, you do not need to create any for this lab.
 
 1.  Click on the **Integrations** item from the left menu
 2.  Click on the **Add Integrations** button
@@ -29,4 +41,13 @@ Assign Repository to a Project
 7.  For **Folder** type *blueprints*
 8.  For **Type** select *Blueprint* and click on the **Next** button
 
-You should now have successful added GitHub as an integration, if you navigate to ‘Blueprints’ you should see new Blueprints that have sync’d from GitHub
+Conclusion
+==========
+
+In this lab we explored how to integrate with GitHub.
+
+Congratulations! You have completed Lab 3. Feel free to deploy the synchronised blueprints or hang tight for the next demonstration on Working with Inputs and Service Broker.
+
+Further Readings
+================
+1.  `How do I use GitLab integration <https://docs.vmware.com/en/VMware-Cloud-Assembly/services/Using-and-Managing/GUID-1847AC57-157A-4319-B425-A1A4731C9DDA.html>`__
