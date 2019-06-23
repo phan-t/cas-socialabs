@@ -47,7 +47,8 @@ Sample YAML
 -----------
 
 .. code:: yaml
-
+   :linenos:
+     
     version: 1.0
     name: Basic IaaS
     formatVersion: 1
