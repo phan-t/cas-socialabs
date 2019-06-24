@@ -89,7 +89,6 @@ Network Profiles
 5.  Click on the **Networks** tab
 6.  Click on the **Add Network** button, select *appnet-public-dev* and click on the **Add** button
 7.  Click on the **Create** button down below
-8.  Repeat to add *Azure* using *vNET27W-Public-SPC*
 
 Further Reading
 ================

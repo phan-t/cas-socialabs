@@ -16,7 +16,7 @@ Solution 01. Assigning Image and Flavor Values
         image: ubuntu
         flavor: small
         constraints:
-          - platform: aws
+        - tag: 'platform:aws'
 
 Challenge 01. Deploy to Azure
 =============================
@@ -33,7 +33,7 @@ Challenge 01. Deploy to Azure
         image: ubuntu
         flavor: small
         constraints:
-          - platform: azure
+        - tag: 'platform:azure'
 
 Challenge 02. Assign Your Own Capabilities and constraints
 ==========================================================
