@@ -35,8 +35,13 @@ Solution 01. Add a cloudConfig section to the yaml.
         repo_upgrade: all
         package_update: true
         package_upgrade: all
-        packages:
-         - apache2
+        users:
+          - name: socialab #username to be created
+            ssh-authorized-keys:
+            - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZ6c7SN6L7DuHO34SUpJAsisy9PJ1TkhiHCuJt3VzKOF0kZPrvDdV7pwU14pFR4jOopcH9Ukajc/BSGiuXuuh4wISKu/p22fH7uzThHav15YCONsgH3FNXCB3UIxkMU+RUOABMrplakoAHrNc2RDaEspwmyGbns6WI6RlNcILr//U6TdXKoht4k6x5S5FKe7GiDBXMePQwfknqWAroVZQiRSCXe0kYAz+Gh518U9IX0BeV5tjxL05QGp7HMCnggTCLA/bGc6rjK97Ujcjcs7MJU8LX0zEYxQeI/uCQzhKFvR3c1MKefjndxYNk6qSOTHyO1uj4/K0SHF62on2dpjZf
+            sudo: ['ALL=(ALL) NOPASSWD:ALL']
+            groups: sudo #groups user to be added too
+            shell: /bin/bash
 
 Challenge 01. Using cloud-init **packages** module, install *Apache*. Bonus points if you can do the same for a RHEL based distro.
 =============================
