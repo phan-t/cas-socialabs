@@ -33,7 +33,7 @@ Challenge 01. Deploy to Azure
         image: ubuntu
         flavor: small
         constraints:
-        - tag: 'platform:azure'
+          - tag: 'platform:azure'
 
 Challenge 02. Assign Your Own Capabilities and constraints
 ==========================================================
