@@ -1,4 +1,4 @@
-Lab 05. Boostrapping with Cloud Init
+Lab 05. Bootstrapping Guest Configuration with cloud-init
 ***********************************
 
 Solution 01. Add a cloudConfig section to the yaml.
