@@ -118,11 +118,11 @@ Challenge
 
 1. Using cloud-init **packages** module, install *Apache*. Refer to cloud-init `Package Update Upgrade Install <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#package-update-upgrade-install>`__
 
-.. Hint:: With later distributions of Linux, Apache** or HTTPD has been updated to Apache2
+.. Hint:: With later distributions of Linux, Apache** has been updated to Apache2. Also, keep in mind some of the differences in package names in different *nix distro's. EG: bind9 and named.
 
 2. Using cloud-init **runcmd** module, install the *Wavefront Telegraf Agent*. Refer to cloud-init `Runcmd <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#runcmd>`__
 
-.. Hint:: bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878 --agent-tags="cas-socialabs"
+.. Hint:: 'sudo bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ec2-54-153-128-0.ap-southeast-2.compute.amazonaws.com  --proxy-port 2878 --agent-tags="cas-socialabs"'
 
 
 Conclusion

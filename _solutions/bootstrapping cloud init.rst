@@ -38,12 +38,12 @@ Step 01. Add a cloudConfig section to the yaml.
         packages:
          - apache2
 
-Challenge 01. Write a file for apache to serve a "Hello World"
+Challenge 01. Using cloud-init **packages** module, install *Apache*. Bonus points if you can do the same for a RHEL based distro.
 =============================
 
 .. code-block:: yaml
     :linenos:
-    :emphasize-lines: 8-12
+    :emphasize-lines: 7
 
         #cloud-config
         repo_update: true
@@ -52,14 +52,20 @@ Challenge 01. Write a file for apache to serve a "Hello World"
         package_upgrade: all
         packages:
          - apache2
-        write_files:
-          - path: /var/ww/html/index.html
-            permissions: '0644'
-            content: |
-              Hello World
 
+.. code-block:: yaml
+    :linenos:
+    :emphasize-lines: 7
 
-Challenge 02. Configure the blueprint to install telegraph agent for wavefront integration
+        #cloud-config
+        repo_update: true
+        repo_upgrade: all
+        package_update: true
+        package_upgrade: all
+        packages:
+         - httpd
+
+Challenge 02. Using cloud-init **runcmd** module, install the *Wavefront Telegraf Agent*.
 ==========================================================
 
 .. code-block:: yaml
@@ -72,11 +78,11 @@ Challenge 02. Configure the blueprint to install telegraph agent for wavefront i
         package_update: true
         package_upgrade: all
         packages:
-         - apache2
+         - apache2  
         write_files:
           - path: /var/ww/html/index.html
             permissions: '0644'
             content: |
               Hello World
         runcmd:
-         - bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address wavefront.vmwapj.com  --proxy-port 2878
+         - 'sudo bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ec2-54-153-128-0.ap-southeast-2.compute.amazonaws.com --proxy-port 2878 --agent-tags="cas-socialabs"'
