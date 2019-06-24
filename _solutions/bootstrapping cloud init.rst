@@ -1,7 +1,7 @@
-Lab.05 Boostrapping with Cloud Init.
+Lab 05. Boostrapping with Cloud Init
 ***********************************
 
-Step 01. Add a cloudConfig section to the yaml.
+Solution 01. Add a cloudConfig section to the yaml.
 ==============================================
 
 .. code-block:: yaml
