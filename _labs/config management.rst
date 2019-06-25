@@ -39,7 +39,6 @@ Sample YAML
 
 .. code-block:: yaml
    :linenos:
-   :emphasize-lines:
 
     resources:
       Cloud_Ansible_1:
@@ -54,6 +53,7 @@ Sample YAML
             provision: /home/socialab/apache.yml
           groups:
             - apache
+
 
 Deploy Blueprint
 ----------------
