@@ -9,7 +9,7 @@ To begin, click on the Infrastructure tab to get started.
 
 1.  Click on the **Integrations** item from the left menu
 2.  Click on the **Add Integrations** button
-3.  Click on the **GitHub** tile
+3.  Click on the **Ansible** tile
 4.  For **Hostname** type *ansible.vmwapj.com*
 5.  Leave **SSH Port** with the predefined defaults
 6.  For **Inventory File Pathh** type */home/socialab/hosts*
@@ -35,7 +35,7 @@ You'll now need clone the **Basic IaaS with cloud-init*** blueprint to **Basic I
 
 
 Sample YAML
------------
+-----------------------------
 
 .. code-block:: yaml
    :linenos:
