@@ -18,6 +18,7 @@ Welcome to the Cloud Automation SociaLabs!
    _labs/versioning control
    _labs/working with inputs
    _labs/bootstrapping cloud init
+   _labs/config management
 
 
 .. toctree::
