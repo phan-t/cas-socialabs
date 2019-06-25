@@ -43,7 +43,6 @@ Sample YAML
     formatVersion: 1
     version: 1.0
     name: Basic IaaS with Inputs
-    formatVersion: 1
     inputs:
       tshirtsize:
         type: string
