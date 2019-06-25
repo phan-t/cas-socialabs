@@ -16,7 +16,7 @@ To begin, click on the Infrastructure tab to get started.
 7.  For **Location** select *Public Cloud*
 8.  For **Username** type *socialab*
 9.  Tick **Use sudo commands for this user**
-10. For **Password** type *VMware1!* shhh keep it a secret!
+10. For **Password** type ``VMware1!`` shhh keep it a secret!
 11. For **Name** type *Ansible*
 12. Click on the **Add** button
 
