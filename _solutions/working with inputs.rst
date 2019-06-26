@@ -2,7 +2,7 @@ Lab 04. Working with Inputs
 ***************************
 
 Step 01. Use Blueprint Inputs
------------------------------
+=============================
 
 .. code-block:: yaml
     :linenos:
@@ -22,7 +22,7 @@ Step 01. Use Blueprint Inputs
           - tag: 'platform:aws'
 
 Challenge 01. Create a input for different platforms, e.g. *AWS* and *Azure*
-----------------------------------------------------------------------------
+============================================================================
 
 .. code-block:: yaml
     :linenos:
@@ -45,7 +45,7 @@ Challenge 01. Create a input for different platforms, e.g. *AWS* and *Azure*
           - tag: '${input.platform}'
 
 Challenge 02. Create a drop-down list for the platforms input to provide choice
--------------------------------------------------------------------------------
+===============================================================================
 
 .. code-block:: yaml
     :linenos:
@@ -71,7 +71,7 @@ Challenge 02. Create a drop-down list for the platforms input to provide choice
           - tag: '${input.platform}'
 
 Challenge 03. Create a friendly title for the platforms input to provide ease of use
-------------------------------------------------------------------------------------
+====================================================================================
 
 .. code-block:: yaml
     :linenos:
