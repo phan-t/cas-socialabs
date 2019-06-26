@@ -122,7 +122,7 @@ Challenge
 
 2. Using cloud-init **runcmd** module, install the *Wavefront Telegraf Agent*. Refer to cloud-init `Runcmd <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#runcmd>`__
 
-.. Hint:: 'sudo bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ec2-54-153-128-0.ap-southeast-2.compute.amazonaws.com  --proxy-port 2878 --agent-tags="cas-socialabs"'
+.. Hint:: sudo bash -c "$(curl -sL https://wavefront.com/install)" -- install --agent --proxy-address ec2-54-153-128-0.ap-southeast-2.compute.amazonaws.com  --proxy-port 2878 --agent-tags="cas-socialabs"
 
 
 Conclusion
