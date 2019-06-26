@@ -35,7 +35,7 @@ You'll now need clone the **Basic IaaS with cloud-init*** blueprint to **Basic I
 
 
 Sample YAML
------------------------------
+-----------
 
 .. code-block:: yaml
    :linenos:
