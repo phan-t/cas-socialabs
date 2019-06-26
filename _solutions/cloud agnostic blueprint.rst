@@ -1,8 +1,8 @@
 Lab 02. Cloud Agnostic Blueprinting
 ***********************************
 
-Solution 01. Assigning Image and Flavor Values
-==============================================
+Solution 01. Create Cloud Agnostic Machine
+==========================================
 
 .. code-block:: yaml
     :linenos:
@@ -13,8 +13,8 @@ Solution 01. Assigning Image and Flavor Values
       Cloud_Machine_1:
       type: Cloud.Machine
       properties:
-        image: ubuntu
-        flavor: small
+        image: 'ubuntu'
+        flavor: 'medium'
         constraints:
           - tag: 'platform:aws'
 
@@ -30,12 +30,7 @@ Challenge 01. Deploy to Azure
       Cloud_Machine_1:
       type: Cloud.Machine
       properties:
-        image: ubuntu
-        flavor: small
+        image: 'ubuntu'
+        flavor: 'medium'
         constraints:
           - tag: 'platform:azure'
-
-Challenge 02. Assign Your Own Capabilities and constraints
-==========================================================
-
-# TODO - add gif recording of applying cloud zone tag and then using it within a BP.
