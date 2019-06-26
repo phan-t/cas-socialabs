@@ -118,7 +118,7 @@ Challenge
 
 1. Using cloud-init **packages** module, install *Apache*. Refer to cloud-init `Package Update Upgrade Install <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#package-update-upgrade-install>`__
 
-.. Hint:: With later distributions of Linux, Apache** has been updated to Apache2. Also, keep in mind some of the differences in package names in different *nix distro's. EG: bind9 and named.
+.. Hint:: With later distributions of Linux, **Apache** has been updated to Apache2. Also, keep in mind some of the differences in package names in different Linux distributions. e.g, bind9 and named.
 
 2. Using cloud-init **runcmd** module, install the *Wavefront Telegraf Agent*. Refer to cloud-init `Runcmd <https://cloudinit.readthedocs.io/en/latest/topics/modules.html#runcmd>`__
 
