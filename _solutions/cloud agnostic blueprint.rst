@@ -6,6 +6,7 @@ Solution 01. Create Cloud Agnostic Machine
 
 .. code-block:: yaml
     :linenos:
+    :emphasize-lines: 7-10
 
     formatVersion: 1
     inputs: {}
@@ -23,6 +24,7 @@ Challenge 01. Deploy to Azure
 
 .. code-block:: yaml
     :linenos:
+    :emphasize-lines: 10
 
     formatVersion: 1
     inputs: {}
