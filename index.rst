@@ -19,6 +19,7 @@ Welcome to the Cloud Automation SociaLabs!
    _labs/working with inputs
    _labs/bootstrapping cloud init
    _labs/config management
+   _labs/implementing extensibility
 
 
 .. toctree::
@@ -29,6 +30,7 @@ Welcome to the Cloud Automation SociaLabs!
    _solutions/cloud agnostic blueprint
    _solutions/working with inputs
    _solutions/bootstrapping cloud init
+   _solutions/implementing extensibility
 
 
 Getting Started
@@ -69,6 +71,8 @@ Before each module, the instructor will discuss and demonstrate the topic. Whils
 | 5        | Bootstrapping Guest Configuration with cloud-init | 15 minutes                |
 +----------+---------------------------------------------------+---------------------------+
 | 6        | Integrating with Configuration Management         | 30 minutes                |
++----------+---------------------------------------------------+---------------------------+
+| 7        | Implementing Extensibility                        | 30 minutes                |
 +----------+---------------------------------------------------+---------------------------+
 
 
