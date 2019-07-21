@@ -12,7 +12,7 @@ To begin, click on the Infrastructure tab to get started.
 3.  Click on the **Ansible** tile
 4.  For **Hostname** type *ansible.vmwapj.com*
 5.  Leave **SSH Port** with the predefined defaults
-6.  For **Inventory File Pathh** type */home/socialab/hosts*
+6.  For **Inventory File Path** type */home/socialab/hosts*
 7.  For **Location** select *Public Cloud*
 8.  For **Username** type *socialab*
 9.  Tick **Use sudo commands for this user**
@@ -70,3 +70,9 @@ Conclusion
 In this lab we explored how to create an agnostic blueprint leveraging an Ansible playbook.
 
 Congratulations! You have completed Lab 6. Feel free to play with your successful deployments or hang tight
+
+Challenge 
+=========
+
+1. Build your own Ansible Control Machine (ACM)
+2. Deploy a Kubernetes Cluster leveraging Ansible integration
