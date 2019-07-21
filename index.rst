@@ -30,6 +30,7 @@ Welcome to the Cloud Automation SociaLabs!
    _solutions/cloud agnostic blueprint
    _solutions/working with inputs
    _solutions/bootstrapping cloud init
+   _solutions/config management
    _solutions/implementing extensibility
 
 
