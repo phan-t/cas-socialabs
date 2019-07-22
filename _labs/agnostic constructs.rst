@@ -43,7 +43,7 @@ Cloud administrators set up the projects, to which they can add users and cloud 
 7.  Click on the **Add Cloud Zone** button
 8.  For **Cloud Zone** select *AWS SPC* and click the **Add** button
 9.  Repeat to add *Azure*
-9.  After adding *Azure*, click on the **Create** button down below
+10.  After adding *Azure*, click on the **Create** button down below
 
 Configure Agnostic Constructs
 =============================
