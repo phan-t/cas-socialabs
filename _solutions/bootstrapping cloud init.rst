@@ -1,12 +1,12 @@
 Lab 05. Bootstrapping Guest Configuration with cloud-init
-***********************************
+*********************************************************
 
 Solution 01. Add cloudConfig to Blueprint
 =========================================
 
 .. code-block:: yaml
     :linenos:
-    :emphasize-lines: 21-34
+    :emphasize-lines: 21-33
 
     formatVersion: 1
     inputs:
