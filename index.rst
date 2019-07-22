@@ -20,6 +20,7 @@ Welcome to the Cloud Automation SociaLabs!
    _labs/bootstrapping cloud init
    _labs/config management
    _labs/implementing extensibility
+   _labs/pipelines and code stream
 
 
 .. toctree::
