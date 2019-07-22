@@ -1,5 +1,5 @@
 Lab 05. Bootstrapping Guest Configuration with cloud-init
-***********************************
+*********************************************************
 
 Solution 01. Add cloudConfig to Blueprint
 =========================================
