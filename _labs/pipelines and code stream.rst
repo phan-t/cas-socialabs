@@ -20,7 +20,7 @@ The **Agent** endpoint leverages an on-premises Cloud Proxy appliance to act as 
 
 Artifactory
 -----------
-Artifactory is a platform focused on storage of software artifacts. These artifacts are typically software artifacts (i.e. results of build processes) or application binaries. 
+Artifactory is a platform focused on storage and consumption of software artifacts. These artifacts are typically results of build processes or application binaries. 
 
 Bamboo
 ------
