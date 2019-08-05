@@ -5,7 +5,7 @@ The Cloud Automation Services SociaLabs event was a brainchild of Grant Orchard,
 
 The goal was to create an impactful experience with VMware's Cloud Automation Services and educate persons from all walks of life about Multi-Cloud Automation, Infrastructure-as-Code, Cloud Bootstrapping, Configuration Management, Extensibility, Pipelining, and much more.
 
-The intention is for this content to be shared and evolved. We dig constructive feedback, ideas, and opinions. Issues can be created and tracked `here <https://github.com/grantorchard/cas-socialabs/issues>`__
+The intention is for this content to be shared and evolved. We dig constructive feedback, ideas, and opinions. Issues can be created and tracked `here <https://github.com/grantorchard/cas-socialabs/issues>`__.
 
 Current Contributors
 ====================
