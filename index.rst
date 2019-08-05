@@ -80,8 +80,7 @@ Before each module, the instructor will discuss and demonstrate the topic. Whils
 
 We encourage the use of hand signals to seek attention. This method can be used if you a question, having objective problems, thirsty, hungry or if you just don't like the presenter.
 
-This guide is generated from `the following repo. <https://github.com/grantorchard/cas-socialabs/>`__
-Please log any issues with the manuals, blueprints, or other content for us to resolve.
+For information on this event and the lab guide contributors visit `the about page <https://cas-socialabs.vmwapj.com/about.html>`__. This guide is generated from `the following repo. <https://github.com/grantorchard/cas-socialabs/>`__.
 
 Indices and tables
 ==================
