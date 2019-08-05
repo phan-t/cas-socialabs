@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Cloud Automation Services SociaLabs'
-copyright = '2019, Brett Drayton, Grant Orchard, and Tony Phan'
-author = '2019, Brett Drayton, Grant Orchard, and Tony Phan'
+copyright = '2019'
+author = 'Brett Drayton, Grant Orchard, and Tony Phan'
 
 # The short X.Y version
 version = ''
