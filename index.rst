@@ -54,7 +54,7 @@ Login to the `VMware Cloud Services Portal <https://console.cloud.vmware.com>`__
 Modules
 =======
 
-As part of every module, there could be a challenge to complete. These are optional however we encourage everyone to have to a go. More information available on the `challenges <https://cas-socialabs.vmwapj.com/challenge/>`__ page.
+As part of every module, there could be a challenge to complete. These are optional however we encourage everyone to have to a go.
 
 Before each module, the instructor will discuss and demonstrate the topic. Whilst we like enthusiasm we recommend everyone pauses at the completion of each module until the instructor starts that particular topic.
 
@@ -80,7 +80,7 @@ Before each module, the instructor will discuss and demonstrate the topic. Whils
 
 We encourage the use of hand signals to seek attention. This method can be used if you a question, having objective problems, thirsty, hungry or if you just don't like the presenter.
 
-For information on this event and the lab guide contributors visit `the about page <https://cas-socialabs.vmwapj.com/about.html>`__. This guide is generated from `the following repo. <https://github.com/grantorchard/cas-socialabs/>`__.
+For more information on this event and the lab guide visit `the about page <https://cas-socialabs.vmwapj.com/about.html>`__. This guide is generated from `the following repo <https://github.com/grantorchard/cas-socialabs/>`__.
 
 Indices and tables
 ==================
