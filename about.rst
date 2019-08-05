@@ -11,7 +11,10 @@ Current Contributors
 ====================
 
 
-|`Cody De Arkland <https://twitter.com/Codydearkland>`__
-|`Grant Orchard <https://twitter.com/grantorchard>`__
-|`Grant Orchard <https://twitter.com/simonlynch15>`__
-|`Tony Phan <https://twitter.com/tonyphan_>`__
+`Cody De Arkland <https://twitter.com/Codydearkland>`__
+
+`Grant Orchard <https://twitter.com/grantorchard>`__
+
+`Simon Lynch <https://twitter.com/simonlynch15>`__
+
+`Tony Phan <https://twitter.com/tonyphan_>`__
